@@ -1,0 +1,106 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<html>
+	<%@ include file="/include/head.jsp" %>
+	<body>
+        <!-- 부서원선택 시작-->
+		<div id="window_popup">
+		    <div class="popup_cm admin document_popup"> 
+                <div class="document_st type_of">
+                    <div class="window_wrap wrap_squa">
+                        <div class="head">
+                            <a href="javascript:;" class="close_btn b-close">닫기</a>
+                            <h4>부서원선택</h4>
+                        </div>
+                        <div class="td_wrap">
+                            <div class="real_content">
+                                <div class="table_box">
+                                    <div class="tb_area">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <th>이름검색</th>
+                                                    <td colspan="3">
+                                                        <div class="filter_box">
+                                                            <div class="search_area">
+                                                                <input type="text" class="search_put"> <!-- 검색어 값없음 클래스 error-->
+                                                                <button type="button" class="search_icon">검색</button>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="table_box">
+                                    <div class="tb_area">
+                                        <table class="tb_area radio_edit">
+                                            <colgroup> <col width="33.333%"><col width="33.333%"><col width="33.333%"> </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <th>이름</th>
+                                                    <th>직책</th>
+                                                    <th>선택</th>
+                                                </tr>
+                                                <tr>
+                                                    <td class="left">정우정</td>
+                                                    <td>
+                                                        <select class="select">
+                                                            <option value="선택">선택</option>
+                                                            <option value="직책">직책</option>
+                                                        </select>
+                                                    </td>
+                                                    <td><input type="checkbox"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="left">안정환</td>
+                                                    <td>
+                                                        <select class="select">
+                                                            <option value="선택">선택</option>
+                                                            <option value="직책">직책</option>
+                                                        </select>
+                                                    </td>
+                                                    <td><input type="checkbox"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="left">정우정</td>
+                                                    <td>
+                                                        <select class="select">
+                                                            <option value="선택">선택</option>
+                                                            <option value="직책">직책</option>
+                                                        </select>
+                                                    </td>
+                                                    <td><input type="checkbox"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="left">안정환</td>
+                                                    <td>
+                                                        <select class="select">
+                                                            <option value="선택">선택</option>
+                                                            <option value="직책">직책</option>
+                                                        </select>
+                                                    </td>
+                                                    <td><input type="checkbox"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="complete_btn">
+                                    <a href="#" class="cpt_cm btn_save">선택완료</a><a href="#" class="cpt_cm btn_canc b-close">취소</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+        
+        <script>
+            $( function() {
+                $('#window_popup .b-close').click(function(){
+                    window.close();
+                });
+			});
+        </script>
+    </body>
