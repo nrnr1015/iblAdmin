@@ -1,0 +1,292 @@
+<html>
+    <head>
+	<title>IBL 관리자 사이트</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/common.css" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/style.css?VER=1" />
+	<script src="/iblAdmin/js/jquery/jquery-1.12.1.js"></script>
+    <script src="/iblAdmin/js/jquery/jquery-ui.min.js"></script>
+	<script src="/iblAdmin/js/jquery/jquery.bpopup-0.11.0.min.js"></script>
+</head>
+    <body>
+        <header class="header_st after">
+			<div class="left_area">
+				<button type="button" class="left_ico bg_ico back_ico">뒤로가기</button>
+				<h2>텍스트텍스트<span class="count">(00)</span></h2>
+			</div>
+			<div class="right_area">
+				<button type="button" class="bg_ico search_ico">조건검색</button>
+				<button type="button" class="bg_ico hbg_ico">메뉴</button>
+			</div>
+		</header>
+
+		<div class="conditional_box">
+			<ul class="cindt_area">
+				<li>
+					<strong>기간</strong>
+					<div class="date_area">
+						<input type="text" class="datepicker" value="2019-03-17"> ~
+						<input type="text" class="datepicker" placeholder="기간입력">
+					</div>
+				</li>
+				<li>
+					<strong>문서분류</strong>
+					<select class="comm_selec">
+						<option value="전체">전체</option>
+						<option value="보고문서">보고문서</option>
+						<option value="근태문서">근태문서</option>
+						<option value="기안문서">근태문서</option>
+						<option value="지출결의서">지출결의서</option>
+						<option value="기타문서">기타문서</option>
+					</select>
+				</li>
+				<li>
+					<strong>키워드</strong>
+					<select class="comm_selec">
+						<option value="전체">전체</option>
+						<option value="문서제목">문서제목</option>
+						<option value="문서내용">문서내용</option>
+						<option value="문서번호">문서번호</option>
+						<option value="부서">문서번호</option>
+						<option value="상신자">상신자</option>
+					</select>
+					<input type="text" class="comm_put" placeholder="키워드 입력">
+				</li>
+			</ul>
+			<button type="button" class="radu_btn">검색</button>
+		</div>
+
+		<!-- 메뉴 시작 -->
+		<div onclick="history.back();" class="page_cover"></div>
+		<div id="menu">
+			<ul>
+				<li class="first"><a href="#">상신함</a></li>
+				<li><a href="#">임시저장</a></li>
+				<li><a href="#">결재진행</a></li>
+				<li><a href="#">결재완료</a></li>
+				<li><a href="#">결재반려</a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">결제함</a></li>
+				<li><a href="#">결제함문서 <span>125</span></a></li>
+				<li><a href="#">결재예정문서</a></li>
+				<li><a href="#">결재한문서</a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">결제임박함</a></li>
+				<li><a href="#">상신함</a></li>
+				<li><a href="#">결재함 <span>5</span></a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">수신참조함</a></li>
+				<li><a href="#">수신참조함 <span>5</span></a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">보관함</a></li>
+				<li><a href="#">개인보관함</a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">전체문서</a></li>
+				<li><a href="#">전체문서</a></li>
+			</ul>
+		</div>
+		<!-- 메뉴 끝 -->
+		<script>
+			$(".hbg_ico").click(function() {
+				$("#menu,.page_cover,html").addClass("open");
+				window.location.hash = "#open";
+				});
+				window.onhashchange = function() {
+				if (location.hash != "#open") {
+					$("#menu,.page_cover,html").removeClass("open");
+				}
+			};   
+			$(".header_st .search_ico").click(function () {
+				$(".conditional_box").toggle("blind", 450);
+			});
+
+			$( function() {
+				//한글설정
+				$.datepicker.regional['ko'] = {
+					closeText: '닫기',
+					prevText: '이전달',
+					nextText: '다음달',
+					currentText: '오늘',
+					monthNames: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'],
+					monthNamesShort: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'],
+					dayNames: ['일','월','화','수','목','금','토'],
+					dayNamesShort: ['일','월','화','수','목','금','토'],
+					dayNamesMin: ['일','월','화','수','목','금','토'],
+					weekHeader: 'Wk',
+					dateFormat: 'yymmdd',
+					firstDay: 0,
+					isRTL: false,
+					duration:200,
+					showAnim:'show',
+					showMonthAfterYear: false,
+					yearSuffix: ''
+				};
+				$.datepicker.setDefaults($.datepicker.regional['ko']);
+				$(".datepicker").datepicker({
+					numberOfMonths: 1,
+					showButtonPanel: true,
+				});
+			}); 
+		</script>
+        <div class="container">
+            <div clss="content">
+                <div class="tabs_wrap">
+                    <div class="tab_list_wrap">
+                        <div class="tabs_list">
+                            <a href="javascript:;">상신함</a>
+                            <a href="javascript:;">전체(100)</a>
+                            <a href="javascript:;">임시저장(5)</a>
+                            <a href="javascript:;">결제진행(200)</a>
+                            <a href="javascript:;">결제</a>
+                        </div>
+                    </div>
+                    <div class="tabs_cont">
+                        <div class="cont">
+                            <ul class="progress">
+                                <li>
+                                    <div class="info">
+                                        <div class="top">
+                                            <p class="che_lab"><span class="label ty01">미열람</span></p>
+                                            <p class="title"><em>[기안서]</em> 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트</p>
+                                        </div>
+                                        <dl>
+                                            <dd>홍길동</dd>
+                                            <dd>마케팅팀</dd>
+                                            <dd>10분 전</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="etc_tgg">
+                                        <div class="tgg_title">
+                                            <a href="javascript:;" class="message">결재이력 및 의견(<span>0</span>)</a>
+                                            <a href="javascript:;" class="clip">첨부파일(<span>0</span>)</a>
+                                        </div>
+                                        <div class="con_info">
+                                            <div class="info_con messg">
+                                                    결제이력 및 이력이 없습니다.
+                                            </div>
+                                            <div class="info_con file_list">
+                                                    첨부파일이 없습니다.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="info">
+                                        <div class="top">
+                                            <p class="che_lab"><span class="label ty02">진행</span> </p>
+                                            <p class="title"><em>[기안서]</em> 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트</p>
+                                        </div>
+                                        <dl>
+                                            <dd>홍길동</dd>
+                                            <dd>마케팅팀</dd>
+                                            <dd>10분 전</dd>
+                                        </dl>
+                                        <div class="next_approved">
+                                            <p>다음결재자</p>
+                                            <p class="name">정우성</p>
+                                        </div>
+                                    </div>
+                                    <div class="etc_tgg">
+                                        <div class="tgg_title">
+                                            <a href="javascript:;" class="message">결재이력 및 의견(<span>3</span>)</a>
+                                            <a href="javascript:;" class="clip">첨부파일(<span>2</span>)</a>
+                                        </div>
+                                        <div class="con_info">
+                                            <div class="info_con messg">
+                                                <dl>
+                                                    <dt><img src="/img/mo/common/clock.png" alt=""></dt>
+                                                    <dd>
+                                                        <p><strong>홍길동<i>주임</i></strong>님이 상신하였습니다.</p> 
+                                                        <span>2019-01-01 15:34</span>
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><img src="/img/mo/common/clock.png" alt=""></dt>
+                                                    <dd>
+                                                        <p><strong>아이유 <i>주임</i></strong>님이 재상신하였습니다.</p>
+                                                        <span>2019-01-01 15:34</span>
+                                                    </dd>
+                                                    <dd class="repl">원본문서 : <strong>㈜커커오-마케팅팀-2019-1254</strong></dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><img src="/img/mo/common/clock.png" alt=""></dt>
+                                                    <dd>
+                                                        <p><strong>정우성</strong></p> 
+                                                        <span>2019-01-01 15:34</span>
+                                                    </dd>
+                                                    <dd class="repl">단순히 결재의견만 입력할 수도 있지요</dd>
+                                                </dl>
+                                                <div class="comment_put after click">
+                                                    <span><input type="text"></spa>
+                                                    <button type="button" class="put_com">등록</button>
+                                                </div>
+                                                <div class="write_box">
+                                                    <textarea placeholder="결재의견 입력"></textarea>
+                                                    <div class="text_num">
+                                                        <span>0/300</span>
+                                                        <button type="button" class="put_com">등록</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="info_con file_list">
+                                                <ul>
+                                                    <li>영수증.png  <span>450kb</span></li>
+                                                    <li>파일명입니다.pdf  <span>450kb</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cont"><p class="none">결재문서가 없습니다.</p></div>
+                        <div class="cont"><p class="none">결재문서가 없습니다.</p></div>
+                        <div class="cont"><p class="none">결재문서가 없습니다.</p></div>
+                        <div class="cont"><p class="none">결재문서가 없습니다.</p></div>
+                    </div>
+                </div>
+            <!-- content end-->
+            </div>
+        </div>
+
+        <script>
+            $(function(){
+			  //텝 클릭
+			  $('.tabs_list').on('click', 'a', function(e) {
+				var i = $(this).index();
+				$(this).addClass('tab-active').siblings().removeClass('tab-active');
+				$(this).closest('.tab_list_wrap').next('.tabs_cont').children().hide().eq(i).show();
+					e.preventDefault();
+				}).each(function() {
+				var on = $(this).find('li.on');
+				$(this).find('a').eq(on.length && on.index() || 0).trigger('click');
+			  });
+			})
+
+            $(document).ready(function() {
+				$('.tgg_title .message').click(function() {
+					$(this).toggleClass('active')
+					$(this).closest('.tgg_title').next('.con_info').find('.messg').toggle();
+					$(this).closest('.tgg_title').next('.con_info').find('.file_list').hide();
+					$('.tgg_title .clip').removeClass('active');
+				});
+				$('.tgg_title .clip').click(function() {
+					$(this).toggleClass('active')
+					$(this).closest('.tgg_title').next('.con_info').find('.file_list').toggle();
+					$(this).closest('.tgg_title').next('.con_info').find('.messg').hide();
+					$('.tgg_title .message').removeClass('active');
+				});
+                $('.progress .click').click(function() {
+                    $(this).css({"display":"none"})
+					$(".progress .write_box").css({"display":"block"})
+				});
+			});
+        </script>
+    </body>
+</html>

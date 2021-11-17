@@ -1,0 +1,111 @@
+<html>
+	<head>
+	<title>IBL 관리자 사이트</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/common.css" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/style.css?VER=1" />
+	<script src="/iblAdmin/js/jquery/jquery-1.12.1.js"></script>
+    <script src="/iblAdmin/js/jquery/jquery-ui.min.js"></script>
+	<script src="/iblAdmin/js/jquery/jquery.bpopup-0.11.0.min.js"></script>
+</head>
+	<body> 
+		<div id="admin_wrap" class="admin">
+						<div class="header_top after">
+				<h1><img src="/img/bo/common/lbl_logo.png" alt="IBL로고"></h1>
+				<ul class="my_info after">
+					<li><a href="#"><em class="my_id">김두현</em>님 환영합니다.</a></li>
+					<li><a href="#">로그아웃</a></li>
+					<li><a href="#">사이트맵</a></li>
+				</ul>
+			</div>
+			<div class="nav_bar">
+				<ul class="manu_box">
+					<li>
+						<a href="#" class="title">메뉴 1</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴1211</a></li>
+							<li><a href="#" class="on">자녀메뉴13</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴2</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴12</a></li>
+							<li><a href="#">자녀메뉴13</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴3</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴133</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴4</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴14</a></li>
+							<li><a href="#">자녀메뉴144</a></li>
+							<li><a href="#">자녀메뉴1444</a></li>
+							<li><a href="#">자녀메뉴15555</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴5</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴155</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<script>
+				$( function() {
+					$(".manu_box").accordion({
+					  heightStyle: "content"
+					});
+				});
+			</script>
+			<div class="container">
+				<div class="content_wrap">
+					<h2>비밀번호변경</h2> 
+					<div class="my_info_box">
+					    <div class="table_box">
+                            <div class="tb_area">
+                                <table>
+                                    <colgroup> <col width="160px"><col width="220px"><col width="160px"><col width="220px"> </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <th><p><em>현재 비밀번호</em></p></th>
+                                            <td colspan="3">
+                                                <input type="password" class="popup_put">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><p><em>새 비밀번호</em></p></th>
+                                            <td colspan="3">
+                                                <input type="password" class="popup_put">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><p><em>새 비밀번호 확인</em></p></th>
+                                            <td colspan="3">
+                                                <input type="password" class="popup_put">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="complete_btn">
+                            <a href="#" class="cpt_cm btn_save">비밀번호 변경</a><a href="#" class="cpt_cm btn_canc">취소</a>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>	
+</html>

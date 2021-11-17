@@ -1,0 +1,215 @@
+<html>
+	<head>
+	<title>IBL 관리자 사이트</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/common.css" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/style.css?VER=1" />
+	<script src="/iblAdmin/js/jquery/jquery-1.12.1.js"></script>
+    <script src="/iblAdmin/js/jquery/jquery-ui.min.js"></script>
+	<script src="/iblAdmin/js/jquery/jquery.bpopup-0.11.0.min.js"></script>
+</head>
+	<body>
+		<div id="admin_wrap" class="admin width_px">
+						<div class="header_top after">
+				<h1><img src="/img/bo/common/lbl_logo.png" alt="IBL로고"></h1>
+				<ul class="my_info after">
+					<li><a href="#"><em class="my_id">김두현</em>님 환영합니다.</a></li>
+					<li><a href="#">로그아웃</a></li>
+					<li><a href="#">사이트맵</a></li>
+				</ul>
+			</div>
+			<div class="nav_bar">
+				<ul class="manu_box">
+					<li>
+						<a href="#" class="title">메뉴 1</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴1211</a></li>
+							<li><a href="#" class="on">자녀메뉴13</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴2</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴12</a></li>
+							<li><a href="#">자녀메뉴13</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴3</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴133</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴4</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴14</a></li>
+							<li><a href="#">자녀메뉴144</a></li>
+							<li><a href="#">자녀메뉴1444</a></li>
+							<li><a href="#">자녀메뉴15555</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴5</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴155</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<script>
+				$( function() {
+					$(".manu_box").accordion({
+					  heightStyle: "content"
+					});
+				});
+			</script>
+			<div class="container">
+				<div class="content_wrap">
+					<div class="oder_input">
+						<h2>입고서 작성</h2> 
+						<div class="tb_area">
+							<table>
+								<colgroup> <col width="13%"><col width="37%"><col width="13%"><col width="37%"> </colgroup>
+								<tbody>
+									<tr>
+										<th><p><span>*</span> <em>입고일자</em></p></th>
+										<td> 
+											<div class="filter_box">
+												<select class="select">
+													<option value="">20190116</option>
+													<option value="">텍스트</option>
+													<option value="">텍스트</option>
+													<option value="">텍스트</option>
+													<option value="">텍스트</option>
+													<option value="">텍스트</option>
+												</select>
+											</div>
+										</td>
+										<th><p><em>입고사유</em></p></th>
+										<td> 
+											<input type="text" class="popup_put">
+										</td>
+									</tr>
+									<tr>
+										<th><p><span>*</span> <em>창고</em></p></th>
+										<td>
+											<input type="text" class="popup_put">
+										</td>
+										<th><p><span>*</span> <em>창고존</em></p></th>
+										<td>
+											<input type="text" class="popup_put">
+										</td>
+									</tr>
+									<tr>
+										<th><p><em>담당자1</em></p></th>
+										<td> 
+											<div class="filter_box">
+												<select class="select">
+													<option value="">선택</option>
+													<option value="">텍스트</option>
+													<option value="">텍스트</option>
+													<option value="">텍스트</option>
+													<option value="">텍스트</option>
+													<option value="">텍스트</option>
+												</select>
+											</div>
+										</td>
+										<th><p><em>담당자2</em></p></th>
+										<td> 
+											<div class="filter_box">
+												<select class="select">
+													<option value="">선택</option>
+													<option value="">텍스트</option>
+													<option value="">텍스트</option>
+													<option value="">텍스트</option>
+													<option value="">텍스트</option>
+													<option value="">텍스트</option>
+												</select>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th><p><em>비고1</em></p></th>
+										<td colspan="3">
+											<input type="text" class="popup_put">
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="content">
+							<div class="grid_td_type">
+								<div class="table_grid">
+									<div class="btn_grid">
+										 <div class="btn_box">
+											 <button type="button" class="btn_cm down_btn">선택삭제</button>
+										 </div>
+									</div>
+									<table>
+										<colgroup>
+											 <col width="40px"><col width="130px"><col width="240px"><col width="100px"><col width="100px"><col width="100px"><col width="100px">
+											 <col width="120px"><col width="110px"><col width="110px"><col width="*">
+										</colgroup>
+										<thead>
+											<tr>
+												<th><input type="checkbox" value="" name=""></th>
+												<th>품목코드</th>
+												<th>품목명</th>
+												<th>규격</th>
+												<th>수량</th>
+												<th>단가(VAT포함)</th>
+												<th>단가(VAT별도)</th>
+												<th>공급가액</th>
+												<th>부가세</th>
+												<th>합계</th>
+												<th>적요</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td><input type="checkbox" value="" name=""></td>
+												<td>123321</td>
+												<td><input type="text" class="text_st" value="다소니 라이팅 부스터 에센스"></td>
+												<td><input type="text" class="text_st" value="150ml"></input></td>
+												<td><input type="text" class="text_st" value="1,000"></input></td>
+												<td><input type="text" class="text_st" value="11,000"></input></td>
+												<td><input type="text" class="text_st" value="10,000"></input></td>
+												<td><input type="text" class="text_st" value="10,000,000"></input></td>
+												<td><input type="text" class="text_st" value="1,000,000"></input></td>
+												<td><input type="text" class="text_st" value="11,000,000"></input></td>
+												<td><input type="text" class="text_st"></td>
+											</tr>
+											<tr>
+												<td><input type="checkbox" value="" name=""></td>
+												<td></td>
+												<td><input type="text" class="text_st"></td>
+												<td><input type="text" class="text_st"></td>
+												<td><input type="text" class="text_st"></td>
+												<td><input type="text" class="text_st"></td>
+												<td><input type="text" class="text_st"></td>
+												<td><input type="text" class="text_st"></td>
+												<td><input type="text" class="text_st"></td>
+												<td><input type="text" class="text_st"></td>
+												<td><input type="text" class="text_st"></td>
+											 </tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="complete_btn">
+								<a href="#" class="cpt_cm btn_save">저장</a><a href="#" class="cpt_cm btn_canc">다시작성</a><a href="#" class="cpt_cm btn_del">취소</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>	
+</html>

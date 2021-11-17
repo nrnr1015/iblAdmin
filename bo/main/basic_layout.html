@@ -1,3 +1,16 @@
+<html>
+	<head>
+	<title>IBL 관리자 사이트</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/common.css" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/style.css?VER=1" />
+	<script src="/iblAdmin/js/jquery/jquery-1.12.1.js"></script>
+    <script src="/iblAdmin/js/jquery/jquery-ui.min.js"></script>
+	<script src="/iblAdmin/js/jquery/jquery.bpopup-0.11.0.min.js"></script>
+</head>
+	<body>
+		<div id="admin_wrap" class="admin">
 			<div class="header_top after">
 				<h1><img src="/img/bo/common/lbl_logo.png" alt="IBL로고"></h1>
 				<ul class="my_info after">
@@ -48,11 +61,21 @@
 					</li>
 				</ul>
 			</div>
-
-			<script>
-				$( function() {
-					$(".manu_box").accordion({
-					  heightStyle: "content"
-					});
+			<div class="container">
+				<div class="content_wrap">
+					<h2>제목입니다.</h2> 
+					<div class="content">
+						<div class="ajax_area"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$( function() {
+				$(".manu_box").accordion({
+				  heightStyle: "content"
 				});
-			</script>
+			});
+		</script>
+	</body>	
+</html>

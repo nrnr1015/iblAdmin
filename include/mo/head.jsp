@@ -1,4 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <head>
 	<title>IBL 관리자 사이트</title>
 	<meta charset="UTF-8">

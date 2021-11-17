@@ -1,0 +1,165 @@
+<html>
+	<head>
+	<title>IBL 관리자 사이트</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/common.css" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/style.css?VER=1" />
+	<script src="/iblAdmin/js/jquery/jquery-1.12.1.js"></script>
+    <script src="/iblAdmin/js/jquery/jquery-ui.min.js"></script>
+	<script src="/iblAdmin/js/jquery/jquery.bpopup-0.11.0.min.js"></script>
+</head>
+	<body>
+		<div id="admin_wrap" class="admin">
+						<div class="header_top after">
+				<h1><img src="/img/bo/common/lbl_logo.png" alt="IBL로고"></h1>
+				<ul class="my_info after">
+					<li><a href="#"><em class="my_id">김두현</em>님 환영합니다.</a></li>
+					<li><a href="#">로그아웃</a></li>
+					<li><a href="#">사이트맵</a></li>
+				</ul>
+			</div>
+			<div class="nav_bar">
+				<ul class="manu_box">
+					<li>
+						<a href="#" class="title">메뉴 1</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴1211</a></li>
+							<li><a href="#" class="on">자녀메뉴13</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴2</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴12</a></li>
+							<li><a href="#">자녀메뉴13</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴3</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴133</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴4</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴14</a></li>
+							<li><a href="#">자녀메뉴144</a></li>
+							<li><a href="#">자녀메뉴1444</a></li>
+							<li><a href="#">자녀메뉴15555</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴5</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴155</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<script>
+				$( function() {
+					$(".manu_box").accordion({
+					  heightStyle: "content"
+					});
+				});
+			</script>
+			<div class="container">
+				<div class="content_wrap">
+					<div class="oder_input">
+						<h2>부서관리</h2> 
+						<div class="content">
+							<div class="sub_title after">
+								<h3>총 <strong>6</strong> 건</h3>
+								<div class="btn_box">
+									<button type="button" class="btn_cm down_btn" onclick="showPop1();">신규부서등록</button>
+								</div>
+							</div>
+							<div class="table_gid">
+								<table>
+									<colgroup><col width="15%"><col width="*"><col width="40%"></colgroup>
+									<thead>
+										<tr>
+											<th onclick="location.href='position_info.jsp'" class="click">부서일련번호</th>
+											<th onclick="location.href='position_info.jsp'" class="left click">부서명</th>
+											<th>동일단계 순서</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1000</td>
+											<td class="left">
+												<div class="depth_area">(주)아이비엘</div>
+											</td>
+											<td>
+												<div class="input_btn_aa">
+													<input type="text" class="popup_put">
+													<button type="button" class="grid_btn">변경</button>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>1002</td>
+											<td class="left">
+												<div class="depth_area depth_indent02">depth2부서1</div>
+											</td>
+											<td>
+												<div class="input_btn_aa">
+													<input type="text" class="popup_put">
+													<button type="button" class="grid_btn">변경</button>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>1004</td>
+											<td class="left">
+												<div class="depth_area depth_indent03">depth3</div>
+											</td>
+											<td>
+												<div class="input_btn_aa">
+													<input type="text" class="popup_put">
+													<button type="button" class="grid_btn">변경</button>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>1003</td>
+											<td class="left">
+												<div class="depth_area depth_indent02">depth2부서2</div>
+											</td>
+											<td>
+												<div class="input_btn_aa">
+													<input type="text" class="popup_put">
+													<button type="button" class="grid_btn">변경</button>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>1001</td>
+											<td class="left">
+												<div class="depth_area">(주)아이비엘2</div>
+											</td>
+											<td>
+												<div class="input_btn_aa">
+													<input type="text" class="popup_put">
+													<button type="button" class="grid_btn">변경</button>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			function showPop1() {window.open("/bo/popup/document_popup20.jsp", "a", "width=820, height=800, left=500, top=60");}
+		</script>
+	</body>	
+</html>

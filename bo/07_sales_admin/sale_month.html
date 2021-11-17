@@ -1,0 +1,153 @@
+<html>
+	<head>
+	<title>IBL 관리자 사이트</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/common.css" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/style.css?VER=1" />
+	<script src="/iblAdmin/js/jquery/jquery-1.12.1.js"></script>
+    <script src="/iblAdmin/js/jquery/jquery-ui.min.js"></script>
+	<script src="/iblAdmin/js/jquery/jquery.bpopup-0.11.0.min.js"></script>
+</head>
+	<body>
+		<div id="admin_wrap" class="admin">
+						<div class="header_top after">
+				<h1><img src="/img/bo/common/lbl_logo.png" alt="IBL로고"></h1>
+				<ul class="my_info after">
+					<li><a href="#"><em class="my_id">김두현</em>님 환영합니다.</a></li>
+					<li><a href="#">로그아웃</a></li>
+					<li><a href="#">사이트맵</a></li>
+				</ul>
+			</div>
+			<div class="nav_bar">
+				<ul class="manu_box">
+					<li>
+						<a href="#" class="title">메뉴 1</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴1211</a></li>
+							<li><a href="#" class="on">자녀메뉴13</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴2</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴12</a></li>
+							<li><a href="#">자녀메뉴13</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴3</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴133</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴4</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴14</a></li>
+							<li><a href="#">자녀메뉴144</a></li>
+							<li><a href="#">자녀메뉴1444</a></li>
+							<li><a href="#">자녀메뉴15555</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴5</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴155</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<script>
+				$( function() {
+					$(".manu_box").accordion({
+					  heightStyle: "content"
+					});
+				});
+			</script>
+			<div class="container">
+				<div class="content_wrap">
+					<h2>월간 종합</h2> 
+					<div class="pick_calendar">
+                        <div class="btn_box">
+                            <button type="button" class="btn_cm down_btn">엑셀 다운받기</button>
+                        </div>
+                        <div class="pick_selec">
+							<div class="cld_comm year">
+								<select>
+									<option value="2019년">2019년</option>
+									<option value="2018년">2018년</option>
+									<option value="2017년">2017년</option>
+									<option value="2016년">2016년</option>
+									<option value="2015년">2015년</option>
+									<option value="2014년">2014년</option>
+									<option value="2013년">2013년</option>
+									<option value="2012년">2012년</option>
+									<option value="2011년">2011년</option>
+									<option value="2010년">2010년</option>
+									<option value="2009년">2009년</option>
+									<option value="2008년">2008년</option>
+									<option value="2007년">2007년</option>
+								</select>
+                            </div>
+							<a href="javascript:;" class="pick_btn prev_option" title="전 옵션"></a> <!-- on 활성-->
+							<a href="javascript:;" class="pick_btn next_option on" title="다음 옵션"></a>
+						</div>
+					</div>
+					<div class="content">
+						<div class="click_area">
+							<ul class="ck_btn after">
+								<li class="on"><button type="button" class="click_btn">전체(메이크샵)</button></li>
+								<li><button type="button" class="click_btn">리빙픽</button></li>
+								<li><button type="button" class="click_btn">아이뷰티랩</button></li>
+								<li><button type="button" class="click_btn">다소니</button></li>
+								<li><button type="button" class="click_btn">헬스24</button></li>
+								<li><button type="button" class="click_btn">오토커넥트</button></li>
+								<li><button type="button" class="click_btn">안방그릴</button></li>
+							</ul>
+							<ul class="ck_btn after">
+								<li><button type="button" class="click_btn">전체(기타포함)</button></li>
+								<li><button type="button" class="click_btn">옥션</button></li>
+								<li><button type="button" class="click_btn">지마켓</button></li>
+								<li><button type="button" class="click_btn">11번가</button></li>
+								<li><button type="button" class="click_btn">쿠팡</button></li>
+								<li><button type="button" class="click_btn">티몬</button></li>
+								<li><button type="button" class="click_btn">위메프</button></li>
+							</ul>
+                        </div>
+                        <div class="tabs_area">
+                            <ul class="tabs after">
+                                <li><a href="javascript:;">전체</a></li>
+                                <li><a href="javascript:;">PC</a></li>
+                                <li><a href="javascript:;">MOBILE</a></li>
+                            </ul>
+                            <div class="tabs_cont">
+                                <div class="tab_con"><div class="ajax_area">1</div></div>
+                                <div class="tab_con"><div class="ajax_area">2</div></div>
+                                <div class="tab_con"><div class="ajax_area">3</div></div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(function(){
+			  //텝 클릭
+			  $('.tabs').on('click', 'a', function(e) {
+				var i = $(this).closest('li').index();
+				$(this).closest('li').addClass('tab-active').siblings().removeClass('tab-active');
+				$(this).closest('.tabs').next('.tabs_cont').children().hide().eq(i).show();
+					e.preventDefault();
+				}).each(function() {
+				var on = $(this).find('li.on');
+				$(this).find('a').eq(on.length && on.index() || 0).trigger('click');
+			  });
+			})
+		</script>
+	</body>	
+</html>

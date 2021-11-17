@@ -1,0 +1,409 @@
+<html>
+	<head>
+	<title>IBL 관리자 사이트</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/common.css" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/style.css?VER=1" />
+	<script src="/iblAdmin/js/jquery/jquery-1.12.1.js"></script>
+    <script src="/iblAdmin/js/jquery/jquery-ui.min.js"></script>
+	<script src="/iblAdmin/js/jquery/jquery.bpopup-0.11.0.min.js"></script>
+</head>
+	<body>
+		<div id="window_popup" class="width_px">
+			<div class="popup_cm admin document_popup">
+				<div class="document_st type18">
+					<div class="window_wrap wrap_squa">
+						<div class="head">
+							<a href="javascript:;" class="close_btn b-close">닫기</a>
+							<h4>발주서입력 선택</h4>
+						</div>
+						<div class="content_wrap td_wrap">
+							<div class="oder_input">
+								<h3>(먼저 대표품목 1개를 선택하시면 입력이 편합니다.) <button type="button" class="add_write">대표품목 선택</button></h3> 
+								<div class="tb_area">
+									<table>
+										<colgroup> <col width="13%"><col width="20%"><col width="13%"><col width="20%"><col width="13%"><col width="20%"></colgroup>
+										<tbody>
+											<tr>
+												<th><p><span>*</span> <em>일자</em></p></th>
+												<td>
+													<div class="filter_box">
+														<select class="select">
+															<option value="">20191016</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+														</select>
+													</div>
+												</td>
+												<th><p><span>*</span> <em>납기일자</em></p></th>
+												<td>
+													<div class="filter_box">
+														<select class="select">
+															<option value="">20191016</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+														</select>
+													</div>
+												</td>
+												<th><p><span>*</span> <em>통화</em></p></th>
+												<td>
+													<div class="filter_box">
+														<select class="select">
+															<option value="">내자</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+														</select>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<th><p><span>*</span> <em>세금구분</em></p></th>
+												<td>
+													<div class="filter_box">
+														<select class="select">
+															<option value="">과세(부가세율적용)</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+														</select>
+													</div>
+												</td>
+												<th><p><span>*</span> <em>결제조건</em></p></th>
+												<td colspan="3" class="inline_box">
+													<div class="filter_box">
+														<select class="select">
+															<option value="">선결제</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+															<option value="">텍스트</option>
+														</select>
+													</div>
+													<div class="input_txt">
+														<span>선결제 <input type="text" class="popup_put perc"> %</span>
+														<span>후결제 <input type="text" class="popup_put perc"> %</span>
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+		
+								<div class="table_box">
+									<div class="tb_area">
+										<table>
+											<colgroup> <col width="13%"><col width="20%"><col width="13%"><col width="20%"><col width="13%"><col width="20%"></colgroup>
+											<tbody>
+												<tr>
+													<th><p><span>*</span> <em>거래처</em></p></th>
+													<td colspan="5"> 
+														<div class="filter_box">
+															<select class="select type4">
+																<option value="">선택</option>
+																<option value="">텍스트</option>
+																<option value="">텍스트</option>
+																<option value="">텍스트</option>
+																<option value="">텍스트</option>
+																<option value="">텍스트</option>
+															</select>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<th><p><span>*</span> <em>거래처 발주담당자</em></p></th>
+													<td>
+														<input type="text" class="popup_put">
+													</td>
+													<th><p><span>*</span> <em>이메일</em></p></th>
+													<td>
+														<input type="text" class="popup_put">
+													</td>
+													<th>핸드폰</th>
+													<td>
+														<div class="tel_box">
+															<select class="select type6">
+																	<option value="">선택</option>
+																	<option value="">010</option>
+																	<option value="">텍스트</option>
+																	<option value="">텍스트</option>
+																	<option value="">텍스트</option>
+																	<option value="">텍스트</option>
+																</select>
+															<input type="tel" class="tel_num">
+															<input type="tel" class="tel_num">
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<th><p><em>거래처 발주담당자</em></p></th>
+													<td>
+														<input type="text" class="popup_put">
+													</td>
+													<th><p><em>이메일</em></p></th>
+													<td>
+														<input type="text" class="popup_put">
+													</td>
+													<th>핸드폰</th>
+													<td>
+														<div class="tel_box">
+															<select class="select type6">
+																	<option value="">선택</option>
+																	<option value="">010</option>
+																	<option value="">텍스트</option>
+																	<option value="">텍스트</option>
+																	<option value="">텍스트</option>
+																	<option value="">텍스트</option>
+																</select>
+															<input type="tel" class="tel_num">
+															<input type="tel" class="tel_num">
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+		
+								<div class="table_box">
+									<div class="tb_area">
+										<table>
+											<colgroup> <col width="13%"><col width="20%"><col width="13%"><col width="20%"><col width="13%"><col width="20%"></colgroup>
+											<tbody>
+												<tr>
+													<th><p><span>*</span> <em>물류처</em></p></th>
+													<td colspan="5"> 
+														<div class="filter_box">
+															<select class="select type4">
+																<option value="">선택</option>
+																<option value="">텍스트</option>
+																<option value="">텍스트</option>
+																<option value="">텍스트</option>
+																<option value="">텍스트</option>
+																<option value="">텍스트</option>
+															</select>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<th><p><em>물류처 입고담당자</em></p></th>
+													<td>
+														<input type="text" class="popup_put">
+													</td>
+													<th><p><em>이메일</em></p></th>
+													<td>
+														<input type="text" class="popup_put">
+													</td>
+													<th>핸드폰</th>
+													<td>
+														<div class="tel_box">
+															<select class="select type6">
+																	<option value="">선택</option>
+																	<option value="">010</option>
+																	<option value="">텍스트</option>
+																	<option value="">텍스트</option>
+																	<option value="">텍스트</option>
+																	<option value="">텍스트</option>
+																</select>
+															<input type="tel" class="tel_num">
+															<input type="tel" class="tel_num">
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								
+								<div class="content">
+									<div class="sub_title after">
+										<div class="btn_box">
+											<button type="button" class="btn_cm down_btn on">거래내역보기</button>
+											<button type="button" class="btn_cm down_btn">선택삭제</button>
+										</div>
+									</div>
+									<div class="grid_td_type">
+										<div class="table_grid">
+											<table>
+												<colgroup>
+													 <col width="40px"><col width="100px"><col width="210px"><col width="75px"><col width="75px"><col width="90px"><col width="90px">
+													 <col width="120px"><col width="110px"><col width="110px"><col width="100px"><col width="70px"><col width="220px"><col width="90px">
+												</colgroup>
+												<thead>
+													<tr>
+														<th><input type="checkbox" value="" name=""></th>
+														<th>품목코드</th>
+														<th>품목명</th>
+														<th>규격</th>
+														<th>수량</th>
+														<th>단가(VAT포함)</th>
+														<th>단가(VAT별도)</th>
+														<th>공급가액</th>
+														<th>부가세</th>
+														<th>합계</th>
+														<th>납기일자</th>
+														<th>사업위탁</th>
+														<th>적요</th>
+														<th>송장번호</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td><input type="checkbox" value="" name=""></td>
+														<td>123321</td>
+														<td><input type="text" class="text_st" value="다소니 라이팅 부스터 에센스"></td>
+														<td><input type="text" class="text_st" value="150ml"></input></td>
+														<td><input type="text" class="text_st" value="1,000"></input></td>
+														<td><input type="text" class="text_st" value="11,000"></input></td>
+														<td><input type="text" class="text_st" value="11,000"></input></td>
+														<td><input type="text" class="text_st" value="10,000"></input></td>
+														<td><input type="text" class="text_st" value="10,000,000"></input></td>
+														<td><input type="text" class="text_st" value="10,000,000"></input></td>
+														<td>2019-01-23</td>
+														<td></td>
+														<td><input type="text" class="text_st"></td>
+														<td><input type="text" class="text_st"></td>
+													</tr>
+													<tr>
+														<td><input type="checkbox" value="" name=""></td>
+														<td></td>
+														<td><input type="text" class="text_st"></td>
+														<td><input type="text" class="text_st"></td>
+														<td><input type="text" class="text_st"></td>
+														<td><input type="text" class="text_st"></td>
+														<td><input type="text" class="text_st"></td>
+														<td><input type="text" class="text_st"></td>
+														<td><input type="text" class="text_st"></td>
+														<td><input type="text" class="text_st"></td>
+														<td></td>
+														<td><input type="text" class="text_st"></td>
+														<td><input type="text" class="text_st"></td>
+														<td><input type="text" class="text_st"></td>
+													 </tr>
+													 <tr>
+														 <td><input type="checkbox" value="" name=""></td>
+														 <td></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+													 </tr>
+												</tbody>
+											</table>
+										 </div>
+										 <div class="table_grid">
+											 <table>
+												 <colgroup>
+														 <col width="40px"><col width="100px"><col width="210px"><col width="75px"><col width="75px"><col width="90px"><col width="90px">
+														 <col width="120px"><col width="110px"><col width="110px"><col width="100px"><col width="70px"><col width="220px"><col width="90px">
+												 </colgroup>
+												 <thead>
+													 <tr>
+														 <th><input type="checkbox" value="" name=""></th>
+														 <th>품목코드</th>
+														 <th>품목명</th>
+														 <th>규격</th>
+														 <th>수량</th>
+														 <th>단가(VAT별도)</th>
+														 <th>단가(VAT별도)</th>
+														 <th>공급가액</th>
+														 <th>부가세</th>
+														 <th>합계</th>
+														 <th>납기일자</th>
+														 <th>사업위탁</th>
+														 <th>적요</th>
+														 <th>송장번호</th>
+													 </tr>
+												 </thead>
+												 <tbody>
+													 <tr>
+														 <td><input type="checkbox" value="" name=""></td>
+														 <td>123321</td>
+														 <td><input type="text" class="text_st" value="다소니 라이팅 부스터 에센스"></td>
+														 <td><input type="text" class="text_st" value="150ml"></input></td>
+														 <td><input type="text" class="text_st" value="1,000"></input></td>
+														 <td><input type="text" class="text_st" value="11,000"></input></td>
+														 <td><input type="text" class="text_st" value="11,000"></input></td>
+														 <td><input type="text" class="text_st" value="10,000"></input></td>
+														 <td><input type="text" class="text_st" value="10,000,000"></input></td>
+														 <td><input type="text" class="text_st" value="10,000,000"></input></td>
+														 <td>2019-01-23</td>
+														 <td></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+													 </tr>
+													 <tr>
+														 <td><input type="checkbox" value="" name=""></td>
+														 <td></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+													 </tr>
+													 <tr>
+														 <td><input type="checkbox" value="" name=""></td>
+														 <td></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+														 <td><input type="text" class="text_st"></td>
+													 </tr>
+												 </tbody>
+											 </table>
+										 </div>
+									</div>
+									<div class="complete_btn">
+										<a href="#" class="cpt_cm btn_save">저장</a><a href="#" class="cpt_cm btn_canc">다시작성</a><a href="#" class="cpt_cm btn_del">취소</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>	
+	<script>
+		$( function() {
+			$('#window_popup .b-close').click(function(){
+				window.close();
+			});
+		});
+	</script>
+</html>

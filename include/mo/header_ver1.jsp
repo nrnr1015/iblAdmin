@@ -1,4 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <header class="header_st after">
 	<div class="left_area">
 		<h1 class="left_ico"><a href="#"><img src="/img/mo/common/logo.png" alt="IBL logo"></a></h1>

@@ -1,0 +1,165 @@
+<html>
+	<head>
+	<title>IBL 관리자 사이트</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/common.css" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/style.css?VER=1" />
+	<script src="/iblAdmin/js/jquery/jquery-1.12.1.js"></script>
+    <script src="/iblAdmin/js/jquery/jquery-ui.min.js"></script>
+	<script src="/iblAdmin/js/jquery/jquery.bpopup-0.11.0.min.js"></script>
+</head>
+	<body> 
+		<div id="admin_wrap" class="admin">
+						<div class="header_top after">
+				<h1><img src="/img/bo/common/lbl_logo.png" alt="IBL로고"></h1>
+				<ul class="my_info after">
+					<li><a href="#"><em class="my_id">김두현</em>님 환영합니다.</a></li>
+					<li><a href="#">로그아웃</a></li>
+					<li><a href="#">사이트맵</a></li>
+				</ul>
+			</div>
+			<div class="nav_bar">
+				<ul class="manu_box">
+					<li>
+						<a href="#" class="title">메뉴 1</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴1211</a></li>
+							<li><a href="#" class="on">자녀메뉴13</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴2</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴12</a></li>
+							<li><a href="#">자녀메뉴13</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴3</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴133</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴4</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴14</a></li>
+							<li><a href="#">자녀메뉴144</a></li>
+							<li><a href="#">자녀메뉴1444</a></li>
+							<li><a href="#">자녀메뉴15555</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴5</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴155</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<script>
+				$( function() {
+					$(".manu_box").accordion({
+					  heightStyle: "content"
+					});
+				});
+			</script>
+			<div class="container">
+				<div class="content_wrap">
+					<h2>부서정보</h2> 
+					<div class="info_box">
+					    <div class="table_box">
+                            <div class="tb_area">
+                                <table>
+                                    <colgroup> <col width="160px"><col width="220px"><col width="160px"><col width="220px"> </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <th><p><span>*</span><em>부서명</em></p></th>
+                                            <td colspan="3">
+                                                <input type="text" class="popup_put">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><p><span>*</span><em>상위부서</em></p></th>
+                                            <td colspan="3">
+                                                <input type="text" class="popup_put" readonly onclick="showPop1();">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><p><em>(동일단계내)순서</em></p></th>
+                                            <td colspan="3">
+                                                <input type="text" class="popup_put" value="1">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="complete_btn">
+                            <a href="#" class="cpt_cm btn_save">부서정보수정</a>
+                        </div>
+                    </div>
+                    <div class="oder_input">
+                        <h2>부서원</h2> 
+                        <div class="content">
+                            <div class="sub_title after">
+                                <h3>총 <strong>1</strong> 명</h3>
+                                <div class="btn_box">
+                                    <button type="button" class="btn_cm down_btn on" onclick="showPop_choice();">부서원추가</button>
+                                    <button type="button" class="btn_cm down_btn">선택삭제</button>
+                                </div>
+                            </div>
+                            <div class="table_gid">
+                                <table>
+                                    <colgroup><col width="10%"><col width="20%"><col width="*"><col width="20%"><col width="15%"></colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th><input type="checkbox"></th>
+                                            <th>이름</th>
+                                            <th>직책</th>
+                                            <th>등록일</th>
+                                            <th>삭제</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>손미의</td>
+                                            <td>
+                                                <div class="input_btn_aa">
+                                                    <select class="select popup_put">
+                                                        <option value="">20191016</option>
+                                                        <option value="">텍스트</option>
+                                                        <option value="">텍스트</option>
+                                                        <option value="">텍스트</option>
+                                                        <option value="">텍스트</option>
+                                                        <option value="">텍스트</option>
+                                                    </select>
+                                                    <button type="button" class="grid_btn">변경</button>
+                                                </div>
+                                            </td>
+                                            <td>2019-03-03 <span>21:04:28</span></td>
+                                            <td><button type="button" class="grid_btn del">삭제</button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="complete_btn">
+                            <a href="#" class="cpt_cm btn_del">취소</a>
+                        </div>
+                    </div>
+				</div>
+			</div>
+        </div>
+        <script>
+            function showPop1() {window.open("/bo/popup/document_popup21.jsp", "a", "width=820, height=800, left=500, top=60");}
+            function showPop_choice() {window.open("/bo/popup/document_popup22.jsp", "a", "width=820, height=800, left=500, top=60");}
+        </script>
+	</body>	
+</html>

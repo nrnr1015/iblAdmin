@@ -1,0 +1,299 @@
+<html>
+	<head>
+	<title>IBL 관리자 사이트</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/common.css" />
+	<link rel="stylesheet" href="/iblAdmin/css/bo/style.css?VER=1" />
+	<script src="/iblAdmin/js/jquery/jquery-1.12.1.js"></script>
+    <script src="/iblAdmin/js/jquery/jquery-ui.min.js"></script>
+	<script src="/iblAdmin/js/jquery/jquery.bpopup-0.11.0.min.js"></script>
+</head>
+	<body> 
+		<div id="admin_wrap" class="admin">
+						<div class="header_top after">
+				<h1><img src="/img/bo/common/lbl_logo.png" alt="IBL로고"></h1>
+				<ul class="my_info after">
+					<li><a href="#"><em class="my_id">김두현</em>님 환영합니다.</a></li>
+					<li><a href="#">로그아웃</a></li>
+					<li><a href="#">사이트맵</a></li>
+				</ul>
+			</div>
+			<div class="nav_bar">
+				<ul class="manu_box">
+					<li>
+						<a href="#" class="title">메뉴 1</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴1211</a></li>
+							<li><a href="#" class="on">자녀메뉴13</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴2</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴12</a></li>
+							<li><a href="#">자녀메뉴13</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴3</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴1</a></li>
+							<li><a href="#">자녀메뉴133</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴4</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴14</a></li>
+							<li><a href="#">자녀메뉴144</a></li>
+							<li><a href="#">자녀메뉴1444</a></li>
+							<li><a href="#">자녀메뉴15555</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">메뉴5</a>
+						<ul class="chd_list">
+							<li><a href="#">자녀메뉴155</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<script>
+				$( function() {
+					$(".manu_box").accordion({
+					  heightStyle: "content"
+					});
+				});
+			</script>
+			<div class="container">
+				<div class="content_wrap">
+					<h2>일별재고(재고실사용)</h2> 
+					<div class="tb_area">
+						<table>
+							<colgroup> <col width="13%"><col width="37%"><col width="13%"><col width="37%"> </colgroup>
+							<tbody>
+								<tr>
+									<th>일자</th>
+									<td colspan="3">
+										<div class="filter_box">
+											<div class="date_pick">
+												<div class="date_box">
+													<input type="text" id="datepicker">
+													<input type="text" class="date_put date_start">
+												</div>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>카테고리</th>
+									<td colspan="3">
+										<div class="filter_box">
+											<select class="select type1">
+												<option value="">대분류</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+											</select>
+											<select class="select type1">
+												<option value="">중분류</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+											</select>
+											<select class="select type1">
+												<option value="">소분류</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+											</select>
+											<select class="select type1">
+												<option value="">세분류</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+											</select>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>창고</th>
+									<td>
+										<div class="filter_box">
+											<select class="select type4">
+												<option value="">전체</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+											</select>
+										</div>
+									</td>
+									<th>창고존</th>
+									<td>
+										<div class="filter_box">
+											<select class="select type4">
+												<option value="">전체</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+												<option value="">텍스트</option>
+											</select>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>사입/위탁</th>
+									<td>
+										<div class="check_area">
+											<div class="check_box">
+												<label class="label_name"><input type="checkbox" class="my_check">전체</label>
+											</div>
+											<div class="check_box">
+												<label class="label_name"><input type="checkbox" class="my_check">사입</label>
+											</div>
+											<div class="check_box">
+												<label class="label_name"><input type="checkbox" class="my_check">어드민</label>
+											</div>
+										</div>
+									</td>
+									<th>배송특징</th>
+									<td>
+										<div class="check_area">
+											<div class="check_box">
+												<label class="label_name"><input type="checkbox" class="my_check">전체</label>
+											</div>
+											<div class="check_box">
+												<label class="label_name"><input type="checkbox" class="my_check">묶음가능상품</label>
+											</div>
+											<div class="check_box">
+												<label class="label_name"><input type="checkbox" class="my_check">개당배송상품</label>
+											</div>
+										</div>
+									</td>
+                                </tr>
+                                <tr>
+                                    <th>사용가능여부</th>
+                                    <td>
+                                        <div class="check_area">
+                                            <div class="check_box">
+                                                <label class="label_name"><input type="checkbox" class="my_check">전체</label>
+                                            </div>
+                                            <div class="check_box">
+                                                <label class="label_name"><input type="checkbox" class="my_check">가능</label>
+                                            </div>
+                                            <div class="check_box">
+                                                <label class="label_name"><input type="checkbox" class="my_check">불가</label>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <th>안전재고</th>
+                                    <td>
+                                        <div class="check_area">
+                                            <div class="check_box">
+                                                <label class="label_name"><input type="checkbox" class="my_check">전체</label>
+                                            </div>
+                                            <div class="check_box">
+                                                <label class="label_name"><input type="checkbox" class="my_check">설정됨</label>
+                                            </div>
+                                            <div class="check_box">
+                                                <label class="label_name"><input type="checkbox" class="my_check">설정안됨</label>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>담당자1</th>
+                                    <td>
+                                        <div class="filter_box">
+                                            <select class="select type4">
+                                                <option value="">전체</option>
+                                                <option value="">텍스트</option>
+                                                <option value="">텍스트</option>
+                                                <option value="">텍스트</option>
+                                                <option value="">텍스트</option>
+                                                <option value="">텍스트</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                    <th>담당자2</th>
+                                    <td>
+                                        <div class="filter_box">
+                                            <select class="select type4">
+                                                <option value="">전체</option>
+                                                <option value="">텍스트</option>
+                                                <option value="">텍스트</option>
+                                                <option value="">텍스트</option>
+                                                <option value="">텍스트</option>
+                                                <option value="">텍스트</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+								<tr>
+                                    <th>브랜드</th>
+                                    <td><input type="text" class="input_nor"></td>
+                                    <th>상품명,코드</th>
+                                    <td><input type="text" class="input_nor"></td>
+                                </tr>
+							</tbody>
+                        </table>
+                        <div class="wide_box"><button type="button" class="wide_btn btn_cm on">검색</button></div>
+					</div>
+					<div class="content">
+						<div class="sub_title after">
+							<h3>총 <strong>2</strong> 건</h3>
+							<div class="btn_box">
+								<button type="button" class="btn_cm down_btn">엑셀로 다운받기</button>
+							</div>
+						</div>
+						<div class="ajax_area"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$( function() {
+				//한글설정
+				$.datepicker.regional['ko'] = {
+					closeText: '닫기',
+					prevText: '이전달',
+					nextText: '다음달',
+					currentText: '오늘',
+					monthNames: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'],
+					monthNamesShort: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'],
+					dayNames: ['일','월','화','수','목','금','토'],
+					dayNamesShort: ['일','월','화','수','목','금','토'],
+					dayNamesMin: ['일','월','화','수','목','금','토'],
+					weekHeader: 'Wk',
+					dateFormat: 'yymmdd',
+					firstDay: 0,
+					isRTL: false,
+					duration:200,
+					showAnim:'show',
+					showMonthAfterYear: false,
+					yearSuffix: ''
+				};
+				$.datepicker.setDefaults($.datepicker.regional['ko']);
+				$("#datepicker").datepicker({
+					numberOfMonths: 2,
+					showButtonPanel: true,
+				});
+				});
+		</script>
+	</body>	
+</html>
