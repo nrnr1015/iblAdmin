@@ -1,0 +1,61 @@
+#login {width: 100%; height: 100%; display: table;}
+.login_center {display: table-cell; vertical-align: middle;}
+.login_center h1 {text-align: center; margin-bottom: 40px;}
+.login_center .input_box {padding: 0 20px;}
+.login_center .input_box .login_txt {font-size: 14px; color: #333; text-align: left;}
+.login_center .input_box .login_txt input {width: 20px; height: 20px; margin-right: 6px; vertical-align: middle}
+.login_center .idpw p:first-child {margin-bottom: 6px;}
+.login_center .idpw input.not {border: 1px solid #d51e19;}
+.login_center .idpw p > span {display: block; line-height: 1.5; font-size: 12px; color: #d51e19;}
+.login_center .idpw {margin: 40px 0 24px;}
+.login_center .login_btn {margin-bottom: 22px; width: 100%; height: 40px; border-radius: 4px; background-color: #d61d19; font-size: 16px; color: #fff; font-weight: 700;}
+.login_center .sorry_ment {margin-bottom: 22px;}
+.login_center .sorry_ment strong {display: block; font-size: 14px; color: #d51e19;}
+.login_center .sorry_ment span {display: block; margin-top: 8px; font-size: 12px; color: #333; line-height: 1.5;}
+
+.progress > li {padding-bottom: 20px; border-bottom:1px solid #ececef;}
+.progress .info {padding: 20px 18px;}
+.progress .top {position: relative;}
+.progress .top .che_lab {position:absolute; left: 0; top: 0;}
+.progress.save_ty .title {padding-left: 60px;}
+.progress .title {padding-left: 36px; font-size: 16px; color: #333; font-weight: 700; line-height: 1.25;}
+.progress .title > em {font-weight: 400;}
+.progress .info dl {margin: 6px 0 0;}
+.progress .info dl dd:after {content:""; display: inline-block; width: 1px; height: 9px; background: #666; margin: 0 6px;}
+.progress .info dl dd:last-child:after {background: none;}
+.progress .info dl dd {display: inline-block; font-size: 12px; color: #666;}
+.progress .next_approved {margin: 15px 0 0; width: 160px; border:1px solid #ececef;}
+.progress .next_approved p {padding: 9px 2px; background: #ececef; font-size: 14px; color: #333; text-align: center;}
+.progress .next_approved p.name {background:#fff; border-top:1px solid #ececef; font-weight: 700;}
+.progress .etc_tgg .tgg_title {padding: 0 18px;}
+.progress .etc_tgg .tgg_title a:first-child {margin-right: 20px;}
+.progress .etc_tgg .tgg_title a {font-size: 14px; color: #333; background-position: left center; background-repeat: no-repeat; background-size: 12px; padding-left: 15px;}
+.progress .etc_tgg .tgg_title a > span ,
+.progress .etc_tgg .tgg_title a.active {font-weight: 700; color: #4a90e2;}
+.progress .etc_tgg .tgg_title a.active.message {background-image: url(/img/mo/common/message-n.png);}
+.progress .etc_tgg .tgg_title a.active.clip {background-image: url(/img/mo/common/paperclip-n.png);}
+.progress .etc_tgg .tgg_title a.message {background-image: url(/img/mo/common/message-d.png);}
+.progress .etc_tgg .tgg_title a.clip {background-image: url(/img/mo/common/paperclip-d.png);}
+.progress .etc_tgg .info_con {margin-bottom: -20px; display: none; margin-top: 10px; padding: 16px; background: #f7f7f9}
+.progress .etc_tgg .messg dl:first-child {margin-top: 0;}
+.progress .etc_tgg .messg dl {position: relative; margin-top: 20px;}
+.progress .etc_tgg .messg dl dt {position:absolute; left: 0; top: 0;}
+.progress .etc_tgg .messg dl dd {display: block; padding-left: 30px; font-size: 12px; color: #333;}
+.progress .etc_tgg .messg dl dd > span {margin: 4px 0; display: block; font-size: 12px; color: #666;}
+.progress .etc_tgg .comment_put {position: relative; margin-top: 15px;}
+.progress .etc_tgg .comment_put span {display: block; padding-right: 85px;}
+.progress .etc_tgg .comment_put .put_com {position:absolute; right: 0; top: 0;}
+.progress .etc_tgg .file_list ul li {font-size: 12px; color: #333; line-height: 1.67; font-weight: 700;}
+.progress .etc_tgg .file_list ul li > span {font-weight: 400; color: #999;}
+.progress input[type="checkbox"] {width: 15px; height: 15px; vertical-align: middle}
+.progress .write_box {display: none; margin-top: 15px; padding: 0;}
+.write_box {background: #f7f7f9; padding: 6px;}
+.write_box textarea {width: 100%; height: 210px; padding: 10px; resize: none; outline: none; border-radius: 4px; border: solid 1px #ececef; font-size: 14px; color: #333;}
+.write_box .text_num {margin: 6px 0 16px; text-align: right;}
+.write_box .text_num > span {font-size: 12px; color: #666; margin-right: 9px;}
+
+.move_pop .cont_area ul li button {width: 100%; font-size: 16px; color: #333; line-height: 2.5; text-align: center;}
+.yesno_pop .radio_check li {display: inline-block; width: 49%;}
+.yesno_pop .radio_check label {font-size: 14px; color: #333; font-weight: 700;}
+.yesno_pop .radio_check input {width: 20px; height: 20px; vertical-align: middle; margin-right: 6px;}
+.yesno_pop textarea {padding: 16px; resize: none; outline: none; width: 100%; height: 160px; margin: 16px 0; border: solid 1px #ececef;}

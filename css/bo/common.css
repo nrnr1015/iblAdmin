@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+/* Common */
+::selection {background-color: #d61818; color: #fff;}
+* {box-sizing:border-box;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0; list-style: none}
+body,input,textarea,select,button,table{font-family:'Nanum Gothic', 'Malgun Gothic' , sans-serif; font-size:14px; font-weight: 400;}
+img,fieldset{border:0; vertical-align:middle;}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+legend{*margin-left:-7px; display:none;}
+table{border-collapse:collapse; border-spacing:0}
+a{text-decoration:none; font-family:'Nanum Gothic', 'Malgun Gothic' , sans-serif; font-weight: 400;}
+a:hover,a:active,a:focus{text-decoration:none}
+iframe{border:0}
+input , select , button {outline: none;}
+button {border: 0; cursor:pointer;}
+.after:after {display: block; content:""; clear: both;}
+.admin .ip_comm {border: 1px solid #b3b3b3; font-size: 16px; color: #333;} /*�씤�뭼蹂대뜑*/
+.admin .label_name {text-align: left; display: inline-block; vertical-align: middle; font-weight: normal !important;}
+.admin .my_check {margin-right: 3px; vertical-align: middle; width: 15px; height: 16px;}
+i {font-style: normal;}
+.my_radio {width: 15px; height: 15px; margin-right: 3px; vertical-align: middle;}
+/*泥댄겕諛뺤뒪 �뒪���씪*/ 
+#login_Page .label_name {text-align: left; display: block; vertical-align: middle;}
+#login_Page .my_check {margin-right: 5px; vertical-align: middle; width: 21px; height: 21px;}
+#admin_wrap .tb_area .error {border:1px solid #d51e19}
+#admin_wrap .btn_cm {background: #fff; border:1px solid #4a90e2; border-radius: 4px; font-size: 12px; color: #4a90e2; font-weight: 700;}
+#admin_wrap .btn_cm:hover {background: #e6f1fd;}
+#admin_wrap .btn_cm.on {background: #4a90e2; color: #fff;}
+
+.admin .select {width: 100%; height: 30px; padding-left: 4px; border: 1px solid #ececef;border-radius: 4px;background: #fff;font-size: 12px;color: #666;}
+.admin .select:hover{border: 1px solid #4ab3fd;}
+.admin .select:focus{border: 1px solid #4ab3fd;}
+.admin .select.type1 {max-width: 110px;}
+.admin .select.type2 {max-width: 180px;}
+.admin .select.type3 {max-width: 200px;}
+.admin .select.type4 {max-width: 270px;}
+.admin .select.type5 {width: 76px;}
+.admin .select.type6 {width: 56px;}
+.admin .select.type7 {width: 150px;}
+
+.table_box .check_title {display: inline-block; font-weight: 700;}
+.admin .popup_put.vat {max-width: 103px;}
+.admin .popup_put.perc {max-width: 50px;}
+.admin .table_box .radio_sp {display: inline-block; margin-left: 10px;}
+.admin .inline_box > div {display: inline-block;}
+.admin .inline_box .select {width: 200px;}
+.admin .inline_box .input_txt {margin-left: 20px;}
+
+.cursorPointer {pointer:cursor !important}
