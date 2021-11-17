@@ -23,7 +23,7 @@
 .admin .header_top .my_info {float: right; padding: 10px 0 5px;}
 .admin .header_top .my_info li {float: left;}
 .admin .header_top .my_info li:first-child a {background: none; padding-left: 0; margin-left: 0; font-weight: 400;}
-.admin .header_top .my_info a {display: block; margin-left: 16px; padding-left: 16px; background: url(/img/bo/common/headertop_bgbg.png) no-repeat left center; color: #333; font-weight: 700;}
+.admin .header_top .my_info a {display: block; margin-left: 16px; padding-left: 16px; background: url(/iblAdmin/img/bo/common/headertop_bgbg.png) no-repeat left center; color: #333; font-weight: 700;}
 .admin .header_top .my_info .my_id {display: inline-block; color: #4a90e2; font-weight: 700;}
 .admin .nav_bar {position:fixed; width: 200px; height: 100%; margin-top: 58px; background: #2f4051; z-index: 9; padding: 13px 0px 300px;}
 .admin .nav_bar a {display: block;}
@@ -66,7 +66,7 @@
 .admin .my_info_box .tb_area input[readonly] {background: #dfe1e6;}
 .admin .tb_area .filter_box > div:first-child {margin-left: 0;}
 .admin .tb_area .filter_box > div {display: inline-block; margin-left: 2px;}
-.admin .tb_area .filter_box .date_pick {max-width: 204px; background:#fff url(/img/bo/common/date_icon.png) no-repeat 8px center; background-size: 14px; padding: 7px 15px 7px 30px; border:1px solid #ececef; border-radius: 4px; font-size: 12px; color: #808080;}
+.admin .tb_area .filter_box .date_pick {max-width: 204px; background:#fff url(/iblAdmin/img/bo/common/date_icon.png) no-repeat 8px center; background-size: 14px; padding: 7px 15px 7px 30px; border:1px solid #ececef; border-radius: 4px; font-size: 12px; color: #808080;}
 .admin .tb_area .filter_box .date_box {position:relative;}
 .admin .tb_area .filter_box .date_pick #datepicker {position:absolute; left: 0; top: 0; width: 100%; height: 100%; border:0; background: transparent; font-size: 12px; color: #666; padding: 0;}
 .admin .tb_area .filter_box .date_pick .date_put {display: inline-block; width: 70px; padding: 0; border:0; border-radius:0;}
@@ -86,7 +86,7 @@
 .admin input[type="text"]:focus{border: 1px solid #4ab3fd;}
 .tb_area input[type="tel"]:hover{border: 1px solid #4ab3fd;}
 .tb_area input[type="tel"]:focus{border: 1px solid #4ab3fd;}
-.admin .search_area .search_icon {width: 66px; height: 28px; margin-left: 2px; text-indent: -9999px; background:#fff url(/img/bo/common/admin_search.png) no-repeat center; background-size: 66px 30px;vertical-align: middle;}
+.admin .search_area .search_icon {width: 66px; height: 28px; margin-left: 2px; text-indent: -9999px; background:#fff url(/iblAdmin/img/bo/common/admin_search.png) no-repeat center; background-size: 66px 30px;vertical-align: middle;}
 
 .admin .content {padding: 0 20px; margin-top: 20px;} 
 .admin .content_gap {width:920px; margin-top: 20px; margin-left:20px}
@@ -118,10 +118,10 @@
 .admin .pick_selec .cld_comm {position:relative; display: inline-block; margin-left: 8px;}
 .admin .pick_selec .cld_comm select {border:0; font-size: 18px; color: #333; font-weight: 700;}
 .admin .pick_calendar .pick_btn {position:absolute; top: 0; width: 14px; height: 24px;}
-.admin .pick_calendar .prev_option {left: 0; background: url(/img/bo/common/prev_option.png) no-repeat center 1px;}
-.admin .pick_calendar .next_option {right: 0; background: url(/img/bo/common/next_option.png) no-repeat center 1px;}
-.admin .pick_calendar .prev_option.on {left: 0; background: url(/img/bo/common/prev_option_on.png) no-repeat center 1px;}
-.admin .pick_calendar .next_option.on {right: 0; background: url(/img/bo/common/next_option_on.png) no-repeat center 1px;}
+.admin .pick_calendar .prev_option {left: 0; background: url(/iblAdmin/img/bo/common/prev_option.png) no-repeat center 1px;}
+.admin .pick_calendar .next_option {right: 0; background: url(/iblAdmin/img/bo/common/next_option.png) no-repeat center 1px;}
+.admin .pick_calendar .prev_option.on {left: 0; background: url(/iblAdmin/img/bo/common/prev_option_on.png) no-repeat center 1px;}
+.admin .pick_calendar .next_option.on {right: 0; background: url(/iblAdmin/img/bo/common/next_option_on.png) no-repeat center 1px;}
 
 
 #ui-datepicker-div {min-width: 624px; padding: 20px 15px;border: 1px solid #c5c5c5; margin-left: -35px; background: #fff;  border-radius: 4px; box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);}
@@ -133,11 +133,11 @@
 #ui-datepicker-div .ui-datepicker-title .ui-datepicker-month {font-size: 20px; color: #000; font-weight: 700;}
 #ui-datepicker-div .ui-datepicker-title .ui-datepicker-year {margin-top: -15px; font-size: 13px; color: #000;}
 #ui-datepicker-div .ui-datepicker-prev, #ui-datepicker-div .ui-datepicker-next {cursor:pointer; text-indent: -9999px; position:absolute; top: 0; background-repeat:no-repeat; background-position: center; width: 24px; height: 24px;}
-#ui-datepicker-div .ui-datepicker-prev {background-image: url(/img/bo/common/date_prev.png); left: 0;}
-#ui-datepicker-div .ui-datepicker-next {background-image: url(/img/bo/common/date_next.png); right: 0;}
+#ui-datepicker-div .ui-datepicker-prev {background-image: url(/iblAdmin/img/bo/common/date_prev.png); left: 0;}
+#ui-datepicker-div .ui-datepicker-next {background-image: url(/iblAdmin/img/bo/common/date_next.png); right: 0;}
 #ui-datepicker-div .ui-datepicker-prev:hover ,
-#ui-datepicker-div .ui-datepicker-prev:active {background-image: url(/img/bo/common/date_prev_on.png); left: 0;}
-#ui-datepicker-div .ui-datepicker-next:hover {background-image: url(/img/bo/common/date_next_on.png); right: 0;}
+#ui-datepicker-div .ui-datepicker-prev:active {background-image: url(/iblAdmin/img/bo/common/date_prev_on.png); left: 0;}
+#ui-datepicker-div .ui-datepicker-next:hover {background-image: url(/iblAdmin/img/bo/common/date_next_on.png); right: 0;}
 #ui-datepicker-div .ui-datepicker-calendar {width: 280px; margin-top: 12px;}
 #ui-datepicker-div th:first-child > span {color: #d51e19;}
 #ui-datepicker-div th:last-child > span {color: #83a9cf;}
@@ -207,7 +207,7 @@
 .document_list li a:hover {background: #ececef;}
 
 .document_st .head {position:fixed; width: 100%; left: 0; top: 0; background: #ececef; padding: 10px 20px; height: 60px; z-index: 9;}
-.document_st .head .close_btn {position:absolute; right: 0; top: 0; width: 60px; height: 60px; background: url(/img/bo/common/popup_close.png) center no-repeat; background-size: 20px; text-indent: -9999px;}
+.document_st .head .close_btn {position:absolute; right: 0; top: 0; width: 60px; height: 60px; background: url(/iblAdmin/img/bo/common/popup_close.png) center no-repeat; background-size: 20px; text-indent: -9999px;}
 .document_st .head .btn_area {display: inline-block;}
 .document_st .head .btn_area .btn_cm:first-child {margin-left: 0;}
 .document_st .head .btn_area .btn_cm {min-width: 90px; height: 40px; padding: 0 5px; margin-left: 5px; border-radius: 4px; background: #fff; border: solid 1px #83a9cf; font-size: 16px; color: #83a9cf; font-weight: bold;}
@@ -238,7 +238,7 @@
 .paper_td .name_list .acc {padding: 8px 0; color: #999; min-height: 30px;}
 .paper_td .name_list .acc.acc_ty1 {color: #4a90e2;}
 .paper_td .name_list .acc.acc_ty2 {color: #d51e19;}
-.admin input[type="text"].date_co {width: 89px; height: 30px; border-radius: 4px; border: 1px solid #ececef; padding: 0 0 0 19px; background: #fff url(/img/bo/common/date_icon.png) no-repeat 3px center; font-size: 11px; color: #666;}
+.admin input[type="text"].date_co {width: 89px; height: 30px; border-radius: 4px; border: 1px solid #ececef; padding: 0 0 0 19px; background: #fff url(/iblAdmin/img/bo/common/date_icon.png) no-repeat 3px center; font-size: 11px; color: #666;}
 .document_st .title_put {width: 100%;}
 .document_st .select_box {display: inline-block;}
 .document_st .time {width: 42px;}
@@ -258,12 +258,12 @@
 .document_st .edit_layer {background: #fff;  border-radius: 4px; box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.15); border: solid 2px #ececef; position:absolute; left: 0; top: 32px; width: 238px;}
 .document_st .edit_layer .headit {position:relative; padding: 7px 14px; background: #ececef;}
 .document_st .edit_layer .headit strong {display: block; font-size: 14px; color: #333; font-weight: bold;}
-.document_st .edit_layer .headit .close {position:absolute; right: 0; top: 0; text-indent: -9999px; width: 30px; height: 30px; background: url(/img/bo/common/edit_layer_close.png) no-repeat center; background-size: 14px;}
+.document_st .edit_layer .headit .close {position:absolute; right: 0; top: 0; text-indent: -9999px; width: 30px; height: 30px; background: url(/iblAdmin/img/bo/common/edit_layer_close.png) no-repeat center; background-size: 14px;}
 .document_st .edit_layer .adit_cont li {display: table; padding: 10px 12px; border-bottom:1px solid #ececef;}
 .document_st .edit_layer .adit_cont li > * {display: table-cell; vertical-align: middle;}
 .document_st .edit_layer .adit_cont li > em {width: 80px; font-size: 12px; color: #333;}
 .document_st .edit_layer .adit_cont li .checked_box {width: 158px;}
-.document_st .edit_layer .adit_cont li .checked_box .date_co {width: 76%; padding: 0 0 0 30px; background: #fff url(/img/bo/common/date_icon.png) no-repeat 8px center;}
+.document_st .edit_layer .adit_cont li .checked_box .date_co {width: 76%; padding: 0 0 0 30px; background: #fff url(/iblAdmin/img/bo/common/date_icon.png) no-repeat 8px center;}
 .document_st .edit_layer .adit_cont li label:first-child {margin-top: 0;}
 .document_st .edit_layer .adit_cont li label {margin-top: 8px; font-size: 12px; color: #333;}
 .document_st .edit_layer .complete_btn {margin: 10px 0;}
@@ -294,12 +294,12 @@
 .document_st .line_wrap .tabs_cont #tab_2 ul {height: 439px;}
 .document_st .line_wrap .tabs_cont #tab_2 ul button {text-indent: 10px;}
 .document_st .line_wrap .chi_cm {height: 30px; padding: 0 13px; border-radius: 4px; border: solid 1px #c2c7d0; background: #fff; font-size: 12px; color: #333;}
-.document_st .line_wrap .up {background: url(/img/bo/common/chevron-up.png) 7px center no-repeat; padding: 0 8px 0 18px;}
-.document_st .line_wrap .down {background: url(/img/bo/common/chevron-down.png) 7px center no-repeat; padding: 0 8px 0 18px;}
+.document_st .line_wrap .up {background: url(/iblAdmin/img/bo/common/chevron-up.png) 7px center no-repeat; padding: 0 8px 0 18px;}
+.document_st .line_wrap .down {background: url(/iblAdmin/img/bo/common/chevron-down.png) 7px center no-repeat; padding: 0 8px 0 18px;}
 .document_st .line_wrap .line_choice {position:relative;}
 .document_st .name_seach {position:absolute; right: 0; top: 0;}
 .document_st .name_seach input {width: 168px; height: 30px; border-radius: 4px; border: solid 1px #ececef; background-color: #ffffff; padding: 5px 25px 5px 10px; font-size: 12px; color: #999;}
-.document_st .name_seach i {cursor:pointer; position:absolute; right: 0; top: 0; width: 30px; height: 30px; background: url(/img/bo/common/line_search.png) no-repeat center; background-size: 12px; text-indent: -9999px;}
+.document_st .name_seach i {cursor:pointer; position:absolute; right: 0; top: 0; width: 30px; height: 30px; background: url(/iblAdmin/img/bo/common/line_search.png) no-repeat center; background-size: 12px; text-indent: -9999px;}
 .document_st .line_wrap table {width: 100%;}
 .document_st .line_wrap .td_over {height: 176px; overflow: auto; margin-top: 10px; border-bottom:1px solid #ececef}
 .document_st .line_wrap .choice_td thead {background: #f7f7f9;}
@@ -343,7 +343,7 @@
 
 .document_st .real_content {position:relative}
 .document_st .print_box {position:absolute; right: 0; top: 0;}
-.document_st .print {text-indent: -9999px; width: 22px; height: 22px; background: url(/img/bo/common/printer.png) no-repeat center; background-size: 22px;}
+.document_st .print {text-indent: -9999px; width: 22px; height: 22px; background: url(/iblAdmin/img/bo/common/printer.png) no-repeat center; background-size: 22px;}
 .document_st .print_box .tootip {padding: 16px 16px 6px; top: 28px; right: 0; left: initial;}
 .document_st .print_box .tootip .label_box {position:relative; margin-bottom: 20px;}
 .document_st .print_box .tootip input {position:absolute; left: 0; top: 0;}
@@ -379,17 +379,17 @@
 #window_popup .type_of .etc tbody th > p > em {padding-left: 0;}
 #window_popup .type_of .table_gid tbody td {background: #fff;}
 .document_popup10 td , .document_popup10.popup_cm .tb_area tbody th {text-align: center;}
-.document_popup10 .replay {width: 18px; height: 16px; margin-right: 12px; background: url(/img/bo/common/replay_icon.png) no-repeat center; text-indent: -9999px;}
+.document_popup10 .replay {width: 18px; height: 16px; margin-right: 12px; background: url(/iblAdmin/img/bo/common/replay_icon.png) no-repeat center; text-indent: -9999px;}
 .document_popup .type11 td > em {display: block;}
 .document_popup .type11 td button {background-color: transparent; text-decoration: underline;}
 #paging , .paging {margin-top: 25px; text-align: center;}
 #paging a , .paging a{display: inline-block; width: 22px; height: 22px; line-height: 20px; font-size: 11px; color: #666; text-align: center;}
 #paging a.on , .paging a.on {border: solid 1px #4a90e2; border-radius: 50%; color: #4a90e2;}
 #paging .icon_pg , .paging .icon_pg {width: 20px; height: 20px; text-indent: -9999px; background-position: center; background-repeat: no-repeat; background-size: 10px 12px} 
-#paging .prev , .paging .prev {background-image: url(/img/bo/common/page_prev.png)}
-#paging .first , .paging .first {background-image: url(/img/bo/common/page_first.png)}
-#paging .next , .paging .next {background-image: url(/img/bo/common/page_next.png)}
-#paging .last , .paging .last {background-image: url(/img/bo/common/page_last.png)}
+#paging .prev , .paging .prev {background-image: url(/iblAdmin/img/bo/common/page_prev.png)}
+#paging .first , .paging .first {background-image: url(/iblAdmin/img/bo/common/page_first.png)}
+#paging .next , .paging .next {background-image: url(/iblAdmin/img/bo/common/page_next.png)}
+#paging .last , .paging .last {background-image: url(/iblAdmin/img/bo/common/page_last.png)}
 
 .tabs_area {margin-top: 20px;}
 .tabs_area .tabs {width:1080px; margin-bottom: 40px;}
@@ -444,9 +444,9 @@
 .list_cont .list_read .page_area.bottom {background-color: transparent;}
 .list_cont .list_read .page_area > * {display: inline-block;}
 .list_cont .list_read .page_area .check_layer {margin-right: 24px;}
-.list_cont .list_read .page_area .refresh {width: 18px; height: 30px; background: url(/img/bo/common/rotate-cw.png) no-repeat center; background-size: 18px 16px;}
+.list_cont .list_read .page_area .refresh {width: 18px; height: 30px; background: url(/iblAdmin/img/bo/common/rotate-cw.png) no-repeat center; background-size: 18px 16px;}
 .list_cont .list_read .page_area .layer_select {display: inline-block; position: relative; margin-left: 6px;}
-.list_cont .list_read .page_area .layer_select .layer_btn {margin-left: 0; background: #fff url(/img/bo/common/btn-pulldown.png) no-repeat 90%; padding-right: 18px;}
+.list_cont .list_read .page_area .layer_select .layer_btn {margin-left: 0; background: #fff url(/iblAdmin/img/bo/common/btn-pulldown.png) no-repeat 90%; padding-right: 18px;}
 
 .list_cont .list_read .page_area .layer {display: none; z-index: 8; padding: 5px 0; position: absolute; left: 0; top: 31px; width: 160px; border-radius: 4px; border: solid 1px #c2c7d0; background-color: #ffffff;}
 .list_cont .list_read .page_area .layer li button {width: 100%;  padding: 2px 10px; text-align: left; background-color: transparent; font-size: 12px; line-height: 2;}
@@ -455,7 +455,7 @@
 
 .list_cont .list_read .page_area .search_area {margin: 0 16px 0 10px;}
 .list_cont .list_read .page_area .search_put {padding: 7px 30px 7px 10px;}
-.list_cont .list_read .page_area .search_ico {position:absolute; right: 0; top: 0; width: 30px; height: 30px; background: url(/img/bo/common/search-b.png) no-repeat center; background-size: 12px;}
+.list_cont .list_read .page_area .search_ico {position:absolute; right: 0; top: 0; width: 30px; height: 30px; background: url(/iblAdmin/img/bo/common/search-b.png) no-repeat center; background-size: 12px;}
 .list_cont .list_read .page_area .abs_search {width: 100%; position: absolute; left: 0; top: 50px; background: #f7f7f9; padding: 0 20px 20px; z-index: 99;}
 .list_cont .list_read .page_area .abs_search .white_box {background: #fff; padding: 20px;}
 .list_cont .list_read .page_area .abs_search ul li:first-child {margin-top: 0;}
@@ -466,7 +466,7 @@
 .list_cont .list_read .page_area .abs_search .put_box {width: 1089px;}
 .list_cont .list_read .page_area .abs_search .put_box select {height: 30px;}
 .list_cont .list_read .page_area .abs_search .input_box input {width: 100%;}
-.list_cont .list_read .page_area .detail_btn {padding-right: 14px; font-size: 12px; font-weight: 700; background: url(/img/bo/common/btn-pulldown.png) no-repeat right;}
+.list_cont .list_read .page_area .detail_btn {padding-right: 14px; font-size: 12px; font-weight: 700; background: url(/iblAdmin/img/bo/common/btn-pulldown.png) no-repeat right;}
 .list_cont .list_read .page_area .pagenation {float: right;}
 .list_cont .list_read .page_area .pagenation > div {display: inline-block;}
 .list_cont .list_read .page_area .pagenation .numbering {margin-right: 6px; font-size: 13px; color: #666;}
@@ -475,8 +475,8 @@
 .list_cont .list_read .page_area .pagenation .bg_ty {width: 30px; height: 30px; border-radius: 4px; border: solid 1px #c2c7d0;}
 .list_cont .list_read .page_area .pagenation .bg_ty:hover{border: 1px solid #4ab3fd;}
 .list_cont .list_read .page_area .pagenation .bg_ty:focus{border: 1px solid #4ab3fd;}
-.list_cont .list_read .page_area .pagenation .arrow_prev {background: #fff url(/img/bo/common/chevrons-left.png) no-repeat center;}
-.list_cont .list_read .page_area .pagenation .arrow_next {background: #fff url(/img/bo/common/chevrons-right.png) no-repeat center;}
+.list_cont .list_read .page_area .pagenation .arrow_prev {background: #fff url(/iblAdmin/img/bo/common/chevrons-left.png) no-repeat center;}
+.list_cont .list_read .page_area .pagenation .arrow_next {background: #fff url(/iblAdmin/img/bo/common/chevrons-right.png) no-repeat center;}
 .list_cont .list_read .progress > li {position: relative; border-bottom: 1px solid #ececef; padding: 14px 20px;}
 .list_cont .list_read .progress > li p{cursor:pointer;}
 .list_cont .list_read .progress > li ul{cursor:pointer;}
@@ -505,10 +505,10 @@
 .list_cont .list_read .etc_tgg .tgg_title li button {padding-left: 16px; background-color: transparent; font-size: 12px; color: #333;}
 .list_cont .list_read .etc_tgg .tgg_title li button > span {color: #4a90e2; font-weight: 700;}
 .list_cont .list_read .etc_tgg .tgg_title li button.active {color: #4a90e2; font-weight: 700;}
-.list_cont .list_read .etc_tgg .tgg_title li button.message.active {background: url(/img/bo/common/message-n.png) no-repeat left center; background-size: 12px}
-.list_cont .list_read .etc_tgg .tgg_title li button.clip.active {background: url(/img/bo/common/paperclip-n.png) no-repeat left center; background-size: 12px}
-.list_cont .list_read .etc_tgg .tgg_title li button.message {background: url(/img/bo/common/message-d.png) no-repeat left center; background-size: 12px}
-.list_cont .list_read .etc_tgg .tgg_title li button.clip {background: url(/img/bo/common/paperclip-d.png) no-repeat left center; background-size: 12px}
+.list_cont .list_read .etc_tgg .tgg_title li button.message.active {background: url(/iblAdmin/img/bo/common/message-n.png) no-repeat left center; background-size: 12px}
+.list_cont .list_read .etc_tgg .tgg_title li button.clip.active {background: url(/iblAdmin/img/bo/common/paperclip-n.png) no-repeat left center; background-size: 12px}
+.list_cont .list_read .etc_tgg .tgg_title li button.message {background: url(/iblAdmin/img/bo/common/message-d.png) no-repeat left center; background-size: 12px}
+.list_cont .list_read .etc_tgg .tgg_title li button.clip {background: url(/iblAdmin/img/bo/common/paperclip-d.png) no-repeat left center; background-size: 12px}
 .list_cont .list_read .con_info .info_con {margin-top: 10px; background: #f7f7f9; padding: 14px 20px; font-size: 12px; color: #333;}
 .list_cont .list_read .con_info .idea_comm {position: relative; margin-top: 16px;}
 .list_cont .list_read .con_info .idea_comm input {float: left; width: 90%;}
@@ -569,7 +569,7 @@
 .category_admin .list_of table thead th {border-left:1px solid #ececef; padding: 10px 2px; text-align: center; background: #f7f7f9; font-size: 12px; font-weight: 700; color: #333;}
 .category_admin .list_of table tbody td {border-left:1px solid #ececef;padding: 10px 2px; font-size: 11px; color: #333; text-align: center;}
 .category_admin .list_of table tbody td.text_blue {font-size: 11px; color: #4a90e2; text-decoration: underline;}
-.category_admin .list_of .edit_ico button {text-indent: -9999px;  width: 30px; height: 20px; border-radius: 4px; border: solid 1px #c2c7d0; background: #fff url(/img/bo/common/refresh-cw.png) no-repeat center; background-size: 12px 10px;}
+.category_admin .list_of .edit_ico button {text-indent: -9999px;  width: 30px; height: 20px; border-radius: 4px; border: solid 1px #c2c7d0; background: #fff url(/iblAdmin/img/bo/common/refresh-cw.png) no-repeat center; background-size: 12px 10px;}
 .category_admin .head {position: relative;}
 .category_admin .new_popup {position: absolute; right: 10px; top:7px; width: 60px; height: 20px; border-radius: 4px; background-color: #83a9cf; font-size: 11px; color: #fff; font-weight: bold;}
 #notice .tb_area {width:840px; margin-left:20px;}
@@ -669,10 +669,10 @@
 .part_aly .media_layer .check_area {float: left;}
 .part_aly .media_layer .check_area input {margin-right: 5px; width: 15px; height: 15px; vertical-align: middle;}
 .part_aly .media_layer .etc_info {float: right; font-size: 11px; color: #999;}
-.part_aly .media_layer .search_area {padding: 5px; background: url(/img/bo/common/search-layer.png) no-repeat 10px center; background-size: 12px;}
+.part_aly .media_layer .search_area {padding: 5px; background: url(/iblAdmin/img/bo/common/search-layer.png) no-repeat 10px center; background-size: 12px;}
 .part_aly .media_layer .write_box {margin-left: 30px; position: relative;}
 .part_aly .media_layer .write_box input {width: 100%;}
-.part_aly .media_layer .write_box .click_x {position:absolute; right: 0; top: 0; background: url(/img/bo/common/x-b-layer.png) no-repeat center; width: 30px; height: 30px; background-size: 14px;}
+.part_aly .media_layer .write_box .click_x {position:absolute; right: 0; top: 0; background: url(/iblAdmin/img/bo/common/x-b-layer.png) no-repeat center; width: 30px; height: 30px; background-size: 14px;}
 .admin .select:disabled {background: #e6e6e6;}
 
 #window_popup .type12 .td_wrap {width: 1200px;} 
@@ -723,8 +723,8 @@
 .graph_wrap .total_graph .detail_list .top_area em {margin: 10px 0 5px; font-weight: normal; font-size: 16px; color: #333;}
 .graph_wrap .total_graph .detail_list .top_area em > strong {display: inline-block; font-size: 30px; font-weight: 800;}
 .graph_wrap .perc {display: inline-block; padding-left: 14px; font-size: 11px; color: #666;font-weight: 700;}
-.graph_wrap .red {background: url(/img/bo/common/icon-dec.png) left center no-repeat; background-size:10px 7px;}
-.graph_wrap .blue {background: url(/img/bo/common/icon-inc.png) left center no-repeat; background-size:10px 7px;}
+.graph_wrap .red {background: url(/iblAdmin/img/bo/common/icon-dec.png) left center no-repeat; background-size:10px 7px;}
+.graph_wrap .blue {background: url(/iblAdmin/img/bo/common/icon-inc.png) left center no-repeat; background-size:10px 7px;}
 .graph_wrap .total_graph .etc {padding: 20px 10px; background-color: #fafafb;}
 .graph_wrap .total_graph .etc span {display: block; height: 80px; overflow: hidden;}
 
@@ -792,7 +792,7 @@
 .line_graph_per .line_per .per_value .ag_bt {font-size: 16px; color: #333;}
 .line_graph_per .line_per .per_value .ag_bt strong {display: inline-block; font-size: 35px; font-weight: 800;}
 .line_graph_per .line_per .pull_btn {position:absolute; right: 0; bottom:0; border-radius: 4px; border: solid 1px #c2c7d0; background: #fff;}
-.line_graph_per .line_per .pull_btn span {display: inline-block; background: url(/img/bo/common/btn-pull.png) 66px center no-repeat; padding: 4px 18px 4px 6px; background-size: 8px 5px; font-size: 12px; color: #666;}
+.line_graph_per .line_per .pull_btn span {display: inline-block; background: url(/iblAdmin/img/bo/common/btn-pull.png) 66px center no-repeat; padding: 4px 18px 4px 6px; background-size: 8px 5px; font-size: 12px; color: #666;}
 
 .line_graph_per .per_tb {margin-top: 6px; width: 100%; border-radius: 8px; box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.06);}
 .line_graph_per .per_tb thead tr {border-bottom:1px solid #333;}
