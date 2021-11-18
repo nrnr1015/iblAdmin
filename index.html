@@ -3,9 +3,12 @@
 	<script type="text/javascript" src="/js/jquery/jquery-1.12.1.js"></script>
 
 		<style type="text/css">
-		.index_wrap {display: flex;}
-		table {width: 49%; border-left:1px solid #999; border-top:2px solid #666}
-		table tr:last-child {border-right: 0; border-bottom: 0;}
+		ul {padding: 0; display: flex; width: 49px; padding: 40px 10px 20px;}
+		li {list-style: none;}
+		.index_wrap {display: flex; padding: 0 10px 40px;}
+		table {width: 49%; border: 2px solid #666;}
+		table tr:last-child th ,
+		table tr:last-child td {border-right: 0; border-bottom: 0;}
 		table tr {border-bottom:1px solid #999;}
 		table tr > * {border-right:1px solid #999; border-bottom: 1px solid #999;}
 		table th , table td {padding: 2px; text-align: left;}
@@ -18,6 +21,10 @@
 
 	</head>
 <body>
+	<ul>
+		<li>PC</li>
+		<li>MOBILE</li>
+	</ul>
 	<div class="index_wrap">
 		<table>
 			<thead>
@@ -85,7 +92,7 @@
 					<td>
 						<a target="_blank" href="/iblAdmin/bo/07_sales_admin/sale_day.html">sale_day</a>
 						<a target="_blank" href="/iblAdmin/bo/07_sales_admin/sale_month.html">sale_month</a>
-						<a target="_blank" href="/iblAdmin/bo/07_sales_admin/sale_admin01.html">sale_admin01</a>
+						<a target="_blank" href="/iblAdmin/bo/07_sales_admin/sales_admin01.html">sales_admin01</a>
 					</td>
 					
 				</tr>
@@ -155,8 +162,8 @@
 					<th></th>
 					<td>
 						<a target="_blank" href="/iblAdmin/bo/15_erp_notice/notice_list.html">notice_list</a>
-						<a target="_blank" href="/iblAdmin/bo/15_erp_notice/notice_view.jsp.html">notice_view.jsp</a>
-						<a target="_blank" href="/iblAdmin/bo/15_erp_notice/notice_wirte.jsp.html">notice_wirte.jsp</a>
+						<a target="_blank" href="/iblAdmin/bo/15_erp_notice/notice_view.html">notice_view</a>
+						<a target="_blank" href="/iblAdmin/bo/15_erp_notice/notice_wirte.html">notice_wirte</a>
 					</td>
 					
 				</tr>
@@ -438,6 +445,7 @@
 					<th></th>
 					<td>
 						<a target="_blank" href="/iblAdmin/mo/login/login.html">login</a>
+						<a target="_blank" href="/iblAdmin/mo/login/login2.html">login2</a>
 					</td>
 					
 				</tr>
