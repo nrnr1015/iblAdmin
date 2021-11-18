@@ -3,12 +3,10 @@
 	<script type="text/javascript" src="/js/jquery/jquery-1.12.1.js"></script>
 
 		<style type="text/css">
-		ul {padding: 0; display: flex; width: 49px; padding: 40px 10px 20px;}
-		li {list-style: none;}
-		.index_wrap {display: flex; padding: 0 10px 40px;}
-		table {width: 49%; border: 2px solid #666;}
-		table tr:last-child th ,
-		table tr:last-child td {border-right: 0; border-bottom: 0;}
+		h2 {margin: 40px 0;}
+		.index_wrap {padding: 0 10px 40px;}
+		table {width: 100%; border: 2px solid #666;}
+		table tr td:last-child{border-right: 0; border-bottom: 0;}
 		table tr {border-bottom:1px solid #999;}
 		table tr > * {border-right:1px solid #999; border-bottom: 1px solid #999;}
 		table th , table td {padding: 2px; text-align: left;}
@@ -21,11 +19,8 @@
 
 	</head>
 <body>
-	<ul>
-		<li>PC</li>
-		<li>MOBILE</li>
-	</ul>
 	<div class="index_wrap">
+		<h2>PC</h2>
 		<table>
 			<thead>
 				<tr>
@@ -419,6 +414,7 @@
 			</tbody>
 			
 		</table>
+		<h2>MOBILE</h2>
 		<table>
 			<colgroup><col width="18%"><col width="*"><col width="14%"></colgroup>
 			<thead>
