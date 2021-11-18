@@ -32,10 +32,10 @@
 .progress .etc_tgg .tgg_title a {font-size: 14px; color: #333; background-position: left center; background-repeat: no-repeat; background-size: 12px; padding-left: 15px;}
 .progress .etc_tgg .tgg_title a > span ,
 .progress .etc_tgg .tgg_title a.active {font-weight: 700; color: #4a90e2;}
-.progress .etc_tgg .tgg_title a.active.message {background-image: url(/iblAdmin/bo/img/mo/common/message-n.png);}
-.progress .etc_tgg .tgg_title a.active.clip {background-image: url(/iblAdmin/bo/img/mo/common/paperclip-n.png);}
-.progress .etc_tgg .tgg_title a.message {background-image: url(/iblAdmin/bo/img/mo/common/message-d.png);}
-.progress .etc_tgg .tgg_title a.clip {background-image: url(/iblAdmin/bo/img/mo/common/paperclip-d.png);}
+.progress .etc_tgg .tgg_title a.active.message {background-image: url(/iblAdmin/img/mo/common/message-n.png);}
+.progress .etc_tgg .tgg_title a.active.clip {background-image: url(/iblAdmin/img/mo/common/paperclip-n.png);}
+.progress .etc_tgg .tgg_title a.message {background-image: url(/iblAdmin/img/mo/common/message-d.png);}
+.progress .etc_tgg .tgg_title a.clip {background-image: url(/iblAdmin/img/mo/common/paperclip-d.png);}
 .progress .etc_tgg .info_con {margin-bottom: -20px; display: none; margin-top: 10px; padding: 16px; background: #f7f7f9}
 .progress .etc_tgg .messg dl:first-child {margin-top: 0;}
 .progress .etc_tgg .messg dl {position: relative; margin-top: 20px;}

@@ -28,9 +28,9 @@ i {font-style: normal;}
 .header_st h2 span {display: inline-block;}
 .header_st .right_area {float: right;}
 .header_st .bg_ico {width: 30px; height: 30px; background-repeat: no-repeat; background-position: center; background-size: 20px}
-.header_st .search_ico {background-image: url(/iblAdmin/bo/img/mo/common/search.png); }
-.header_st .hbg_ico {background-image: url(/iblAdmin/bo/img/mo/common/wingmenu.png);}
-.header_st .back_ico {width: 24px; background-position: left center; background-image: url(/iblAdmin/bo/img/mo/common/back_icon.png); background-size: 14px 24px;}
+.header_st .search_ico {background-image: url(/iblAdmin/img/mo/common/search.png); }
+.header_st .hbg_ico {background-image: url(/iblAdmin/img/mo/common/wingmenu.png);}
+.header_st .back_ico {width: 24px; background-position: left center; background-image: url(/iblAdmin/img/mo/common/back_icon.png); background-size: 14px 24px;}
 .tab_list_wrap {height: 38px; overflow: hidden;}
 .tabs_list {background: #f4f7fa;}
 .tabs_list {width: 100%; overflow: auto; white-space: nowrap;} 
@@ -56,8 +56,8 @@ input[type="password"] {width: 100%; height: 40px; padding: 8px 10px; border-rad
 /*硫붾돱*/
 #menu {overflow-y: auto; width: 280px; height: 100%;position: fixed; top: 0px; right: -280px; z-index: 10; background-color: #fff; transition: All 0.2s ease; -webkit-transition: All 0.2s ease; -moz-transition: All 0.2s ease; -o-transition: All 0.2s ease;}
 #menu.open {right: 0px;}
-#menu ul li.first a {text-indent: 0; color: #333; font-weight: 700; background: #fff url(/iblAdmin/bo/img/mo/common/chevron-right-small.png) 90% center no-repeat;}
-#menu ul li a {display: block; text-indent: 16px; padding: 16px; font-size: 14px; color: #666; background: #f7f7f9 url(/iblAdmin/bo/img/mo/common/chevron-right-small.png) 90% center no-repeat;}
+#menu ul li.first a {text-indent: 0; color: #333; font-weight: 700; background: #fff url(/iblAdmin/img/mo/common/chevron-right-small.png) 90% center no-repeat;}
+#menu ul li a {display: block; text-indent: 16px; padding: 16px; font-size: 14px; color: #666; background: #f7f7f9 url(/iblAdmin/img/mo/common/chevron-right-small.png) 90% center no-repeat;}
 #menu ul li a > span {font-weight: 700;}
 .page_cover.open {display: block;}
 .page_cover {width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.6); z-index: 4; display: none;}
@@ -65,16 +65,16 @@ input[type="password"] {width: 100%; height: 40px; padding: 8px 10px; border-rad
 /*怨듯녃 踰꾪듉*/
 .act_btn {width: 100%; height: 50px; position: fixed; left: 0; bottom: 0; background-color: #4a90e2;}
 .act_btn > span {display: inline-block; padding-left: 30px; background-repeat: no-repeat; background-position: left center; background-size: 22px 20px; font-size: 18px; font-weight: 700; color: #fff;}
-.act_btn.check_bg span {background-image: url(/iblAdmin/bo/img/mo/common/check.png);}
-.act_btn.del_bg span {background-image: url(/iblAdmin/bo/img/mo/common/delete.png);}
-.act_btn.move_bg span {background-image: url(/iblAdmin/bo/img/mo/common/move.png);}
+.act_btn.check_bg span {background-image: url(/iblAdmin/img/mo/common/check.png);}
+.act_btn.del_bg span {background-image: url(/iblAdmin/img/mo/common/delete.png);}
+.act_btn.move_bg span {background-image: url(/iblAdmin/img/mo/common/move.png);}
 
 .act_btn.cancel_bg {background-color: #d51e19;}
 .act_btn.edit_bg {background-color: #83a9cf;}
 .act_btn.plus_bg {background-color: #83a9cf;}
-.act_btn.cancel_bg span {background-image: url(/iblAdmin/bo/img/mo/common/cancel.png);}
-.act_btn.edit_bg span {background-image: url(/iblAdmin/bo/img/mo/common/edit.png);}
-.act_btn.plus_bg span {background-image: url(/iblAdmin/bo/img/mo/common/plus.png);}
+.act_btn.cancel_bg span {background-image: url(/iblAdmin/img/mo/common/cancel.png);}
+.act_btn.edit_bg span {background-image: url(/iblAdmin/img/mo/common/edit.png);}
+.act_btn.plus_bg span {background-image: url(/iblAdmin/img/mo/common/plus.png);}
 
 
 /*�뫁洹쇰쾭�듉*/
@@ -86,7 +86,7 @@ input[type="password"] {width: 100%; height: 40px; padding: 8px 10px; border-rad
 .popup_comm {display: none; border: solid 4px #ececef; width: 90%; height: 360px; background: #fff;}
 .popup_comm .header_area {position: relative;; width: 100%; height: 50px; background: #ececef;}
 .popup_comm .header_area h4 {text-indent: 16px; font-size: 18px; color: #333; font-weight: 700; text-align: left; line-height: 50px;}
-.popup_comm .header_area .b-close {display: block; text-indent: -9999px; width: 50px; height: 50px; position: absolute; right: 0; top: 0; background: url(/iblAdmin/bo/img/mo/common/popup_close.png) center no-repeat; background-size: 14px;}
+.popup_comm .header_area .b-close {display: block; text-indent: -9999px; width: 50px; height: 50px; position: absolute; right: 0; top: 0; background: url(/iblAdmin/img/mo/common/popup_close.png) center no-repeat; background-size: 14px;}
 .popup_comm .cont_area {height: 300px; overflow-y: auto; padding: 16px;}
 .pop_title {display: block; margin-bottom: 20px; font-size: 14px; color: #333; font-weight: 700;}
 /*���젆�듃*/
@@ -115,11 +115,11 @@ input[type="password"] {width: 100%; height: 40px; padding: 8px 10px; border-rad
 #ui-datepicker-div .ui-datepicker-title .ui-datepicker-month {font-size: 20px; color: #000; font-weight: 700;}
 #ui-datepicker-div .ui-datepicker-title .ui-datepicker-year {margin-top: -15px; font-size: 13px; color: #000;}
 #ui-datepicker-div .ui-datepicker-prev, #ui-datepicker-div .ui-datepicker-next {cursor:pointer; text-indent: -9999px; position:absolute; top: 0; background-repeat:no-repeat; background-position: center; width: 24px; height: 24px;}
-#ui-datepicker-div .ui-datepicker-prev {background-image: url(/iblAdmin/bo/img/bo/common/date_prev.png); left: 0;}
-#ui-datepicker-div .ui-datepicker-next {background-image: url(/iblAdmin/bo/img/bo/common/date_next.png); right: 0;}
+#ui-datepicker-div .ui-datepicker-prev {background-image: url(/iblAdmin/img/bo/common/date_prev.png); left: 0;}
+#ui-datepicker-div .ui-datepicker-next {background-image: url(/iblAdmin/img/bo/common/date_next.png); right: 0;}
 #ui-datepicker-div .ui-datepicker-prev:hover ,
-#ui-datepicker-div .ui-datepicker-prev:active {background-image: url(/iblAdmin/bo/img/bo/common/date_prev_on.png); left: 0;}
-#ui-datepicker-div .ui-datepicker-next:hover {background-image: url(/iblAdmin/bo/img/bo/common/date_next_on.png); right: 0;}
+#ui-datepicker-div .ui-datepicker-prev:active {background-image: url(/iblAdmin/img/bo/common/date_prev_on.png); left: 0;}
+#ui-datepicker-div .ui-datepicker-next:hover {background-image: url(/iblAdmin/img/bo/common/date_next_on.png); right: 0;}
 #ui-datepicker-div .ui-datepicker-calendar {width: 256px; margin-top: 12px;}
 #ui-datepicker-div th:first-child > span {color: #d51e19;}
 #ui-datepicker-div th:last-child > span {color: #83a9cf;}

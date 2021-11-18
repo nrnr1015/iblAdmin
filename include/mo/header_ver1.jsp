@@ -1,6 +1,6 @@
 <header class="header_st after">
 	<div class="left_area">
-		<h1 class="left_ico"><a href="#"><img src="/iblAdmin/bo/img/mo/common/logo.png" alt="IBL logo"></a></h1>
+		<h1 class="left_ico"><a href="#"><img src="/iblAdmin/img/mo/common/logo.png" alt="IBL logo"></a></h1>
 	</div>
 	<div class="right_area">
 		<button type="button" class="bg_ico search_ico">조건검색</button>
